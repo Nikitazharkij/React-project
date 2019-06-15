@@ -1,3 +1,6 @@
+$picCitySize: 14rem
+$picTextSize: 1.7rem
+
 html
 	font-size: 10px
 
@@ -7,18 +10,34 @@ footer
 
 main
 	p
-		font-size: 1.7rem
+		font-size: $picTextSize
 
 .profile-cities
 	height: 21rem
 
-.t
-	background-color: yellow
+.titleContinent
 	height: 3rem
-.s
-	background-color: red
-	height: 18rem
 
-.scroll-cities
-	width: 14rem
-	background-color: pink
+.row.lineCities
+	margin-right: 0
+
+.scrollCities
+	display: flex
+	overflow: auto
+	white-space: nowrap
+
+.previewCity
+	width: $picCitySize
+	height: $picCitySize
+
+.picCityFrame
+	position: relative
+
+.picCityText
+	position: absolute
+	top: 110px
+	width: $picCitySize
+	text-align: center
+	color: white
+	font-size: $picTextSize
+
