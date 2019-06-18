@@ -1,0 +1,30 @@
+{
+  "state": {
+      "africa": [
+        {
+          "id": 1,
+          "city": "Addis Ababa",
+          "country": "Ethiopia",
+          "src": "./img/Africa/AddisAbaba.jpg"
+        },
+        {
+          "id": 2,
+          "city": "Cairo",
+          "country": "Egipt",
+          "src": "./img/Africa/Cairo.jpg"
+        },
+        {
+          "id": 3,
+          "city": "Dakar",
+          "country": "Senegal",
+          "src": "./img/Africa/Dakar.jpg"
+        },
+        {
+          "id": 4,
+          "city": "Accra",
+          "country": "Ghana",
+          "src": "./img/Africa/Ghana.jpg"
+      }
+    ]
+  }
+}

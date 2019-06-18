@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Header.module.sass'
 
 const Header = (props) => {
-  console.log(s)
+
   return (
     <header>
       <div className={s.headerFirstPage}>
