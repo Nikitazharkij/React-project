@@ -1,20 +1,22 @@
 import React from 'react';
+import {BrowserRouter, Route} from 'react-router-dom';
 import s from './Header.module.sass'
+import HeaderMainPage from './HeaderMainPage/HeaderMainPage';
+import HeaderSecondPage from './HeaderSecondPage/HeaderSecondPage';
 
 const Header = (props) => {
 
   return (
-    <header>
-      <div className={s.headerFirstPage}>
-        <div className="container">
-          <div className={`row ${s.headerTitle}`}>
-            <div className="col-12">
-              Choose region
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <BrowserRouter>
+      <header>
+        <Route exact path = '/'
+          render = {() => <HeaderMainPage />}
+          />
+        <Route path = '/city'
+          render = {() => <HeaderSecondPage />}
+          />
+      </header>
+    </BrowserRouter>
   )
 }
 
