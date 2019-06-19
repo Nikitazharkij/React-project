@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './HeaderMainPage.module.sass'
+import s from './HeaderFirstPage.module.sass'
 
-const HeaderMainPage = (props) => {
+const HeaderFirstPage = (props) => {
 
   return (
       <div className={s.headerPage}>
@@ -16,4 +16,4 @@ const HeaderMainPage = (props) => {
   )
 }
 
-export default HeaderMainPage;
+export default HeaderFirstPage;

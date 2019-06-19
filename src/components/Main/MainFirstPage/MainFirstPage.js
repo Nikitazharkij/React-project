@@ -1,8 +1,8 @@
 import React from 'react';
-import s from './MainMainPage.module.sass'
+import s from './MainFirstPage.module.sass'
 import PicsCity from './PicsCity/PicsCity'
 
-const MainMainPage = (props) => {
+const MainFirstPage = (props) => {
 
   let picsCityElementAfrica = props.state.africa.map (
     p => <PicsCity key = {`${p.country}${p.id}`}
@@ -67,4 +67,4 @@ const MainMainPage = (props) => {
   )
 }
 
-export default MainMainPage;
+export default MainFirstPage;

@@ -1,12 +1,69 @@
 import React from 'react';
 import s from './MainSecondPage.module.sass'
+import PicsCityPlaces from './PicsCityPlaces/PicsCityPlaces'
+import DescriptionCity from './DescriptionCity/DescriptionCity'
 
 const MainSecondPage = (props) => {
 
+  let descriptionCity = <DescriptionCity
+    country = "Amsterdam"
+    name = "Royal Palace"
+    descriptionCity = {props.state.africa[0].description} />
+
+  let placesOfCity = props.state.africa[0].places.map (
+    p => <PicsCityPlaces
+    key = {p.name}
+    name = {p.name}
+    src = {p.src}
+    type = {p.type} />
+  )
+
+  let hotelOfCity = props.state.africa[0].hotels.map (
+    p => <PicsCityPlaces
+    key = {p.name}
+    name = {p.name}
+    src = {p.src}
+    type = {p.type} />
+  )
   return (
-    <h1>
-      Hello World!!!
-    </h1>
+    <div>
+      <div className={`container ${s.profileCities}`}>
+        <div className="row">
+            <div className={`col-12 ${s.titleContinent}`}>
+              <p>AMSTERDAM, NETHERLANDS</p>
+            </div>
+        </div>
+        <div className={`row ${s.lineCities}`}>
+          <div className={`col-12 ${s.scrollCities}`}>
+            {descriptionCity}
+          </div>
+        </div>
+      </div>
+      <div className={`container ${s.profileCities}`}>
+        <div className="row">
+            <div className={`col-12 ${s.titleContinent}`}>
+              <p>WHAT TO SEE</p>
+            </div>
+        </div>
+        <div className={`row ${s.lineCities}`}>
+          <div className={`col-12 ${s.scrollCities}`}>
+            {placesOfCity}
+          </div>
+        </div>
+      </div>
+      <div className={`container ${s.profileCities}`}>
+        <div className="row">
+            <div className={`col-12 ${s.titleContinent}`}>
+              <p>WHERE TO LIVE</p>
+            </div>
+        </div>
+        <div className={`row ${s.lineCities}`}>
+          <div className={`col-12 ${s.scrollCities}`}>
+            {hotelOfCity}
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 

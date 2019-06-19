@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import s from './Header.module.sass'
-import HeaderMainPage from './HeaderMainPage/HeaderMainPage';
+import HeaderFirstPage from './HeaderFirstPage/HeaderFirstPage';
 import HeaderSecondPage from './HeaderSecondPage/HeaderSecondPage';
 
 const Header = (props) => {
@@ -10,7 +10,7 @@ const Header = (props) => {
     <BrowserRouter>
       <header>
         <Route exact path = '/'
-          render = {() => <HeaderMainPage />}
+          render = {() => <HeaderFirstPage />}
           />
         <Route path = '/city'
           render = {() => <HeaderSecondPage />}

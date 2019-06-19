@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import s from './Main.module.sass'
-import MainMainPage from './MainMainPage/MainMainPage'
+import MainFirstPage from './MainFirstPage/MainFirstPage'
 import MainSecondPage from './MainSecondPage/MainSecondPage'
 
 const Main = (props) => {
@@ -10,11 +10,12 @@ const Main = (props) => {
     <BrowserRouter>
       <main>
         <Route exact path = '/'
-          render = {() => <MainMainPage
+          render = {() => <MainFirstPage
           state = {props.state} />}
           />
         <Route path = '/city'
-          render = {() => <MainSecondPage />}
+          render = {() => <MainSecondPage
+          state = {props.state} />}
           />
       </main>
     </BrowserRouter>
