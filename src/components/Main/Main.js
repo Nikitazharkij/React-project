@@ -11,11 +11,11 @@ const Main = (props) => {
       <main>
         <Route exact path = '/'
           render = {() => <MainFirstPage
-          state = {props.state} />}
+          state = {props.data} />}
           />
         <Route path = '/city'
           render = {() => <MainSecondPage
-          state = {props.state} />}
+          state = {props.data} />}
           />
       </main>
     </BrowserRouter>

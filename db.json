@@ -1,13 +1,16 @@
 {
-  "continent": {
-      "africa": [
+  "continent":
+    {
+      "africa":
+      [
         {
           "id": 1,
           "city": "Addis Ababa",
           "country": "Ethiopia",
           "src": "./img/Africa/AddisAbaba.jpg",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals",
-          "places": [
+          "places":
+          [
             {
               "name": "Royal Palace",
               "src": "./img/Africa/AddisAbaba.jpg",
@@ -24,7 +27,8 @@
               "type": "Castle"
             }
           ],
-          "hotels": [
+          "hotels":
+          [
             {
               "name": "dfdfdsf",
               "src": "./img/Africa/Accra.jpg",
@@ -59,9 +63,10 @@
           "city": "Accra",
           "country": "Ghana",
           "src": "./img/Africa/Accra.jpg"
-      }
-    ],
-      "asia": [
+        }
+      ],
+      "asia":
+      [
         {
           "id": 1,
           "city": "Agra",
@@ -86,8 +91,9 @@
           "country": "Japan",
           "src": "./img/Asia/Tokio.jpg"
       }
-    ],
-      "europe": [
+      ],
+      "europe":
+      [
         {
           "id": 1,
           "city": "Amsterdam",
@@ -111,7 +117,7 @@
           "city": "Prague",
           "country": "Czech",
           "src": "./img/Europe/Prague.jpg"
-      }
-    ]
-  }
+        }
+      ]
+    }
 }
