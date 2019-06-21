@@ -1,65 +1,65 @@
 import React from 'react';
-import s from './MainSecondPage.module.sass'
-import PicsCityPlaces from './PicsCityPlaces/PicsCityPlaces'
-import DescriptionCity from './DescriptionCity/DescriptionCity'
+import s from './MainHome.module.sass'
+import PicsCity from './PicsCity/PicsCity'
 
-const MainSecondPage = (props) => {
+const MainHome = (props) => {
 
-  let descriptionCity = <DescriptionCity
-    country = "Amsterdam"
-    name = "Royal Palace"
-    descriptionCity = {props.state.africa[0].description} />
-
-  let placesOfCity = props.state.africa[0].places.map (
-    p => <PicsCityPlaces
-    key = {p.name}
-    name = {p.name}
-    src = {p.src}
-    type = {p.type} />
+  let picsCityElementAfrica = props.data.africa.map (
+    p => <PicsCity key = {`${p.country}${p.id}`}
+                   country = {p.country}
+                   src = {p.src}
+                   city = {p.city} />
   )
 
-  let hotelOfCity = props.state.africa[0].hotels.map (
-    p => <PicsCityPlaces
-    key = {p.name}
-    name = {p.name}
-    src = {p.src}
-    type = {p.type} />
+  let picsCityElementAsia = props.data.asia.map (
+    p => <PicsCity key = {`${p.country}${p.id}`}
+                   country = {p.country}
+                   src = {p.src}
+                   city = {p.city} />
   )
+
+  let picsCityElementEurope = props.data.europe.map (
+    p => <PicsCity key = {`${p.country}${p.id}`}
+                   country = {p.country}
+                   src = {p.src}
+                   city = {p.city} />
+  )
+
   return (
     <div>
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>AMSTERDAM, NETHERLANDS</p>
+              <p>AFRICA</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
           <div className={`col-12 ${s.scrollCities}`}>
-            {descriptionCity}
+            {picsCityElementAfrica}
           </div>
         </div>
       </div>
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>WHAT TO SEE</p>
+              <p>ASIA</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
           <div className={`col-12 ${s.scrollCities}`}>
-            {placesOfCity}
+            {picsCityElementAsia}
           </div>
         </div>
       </div>
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>WHERE TO LIVE</p>
+              <p>EUROPE</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
           <div className={`col-12 ${s.scrollCities}`}>
-            {hotelOfCity}
+            {picsCityElementEurope}
           </div>
         </div>
       </div>
@@ -67,4 +67,4 @@ const MainSecondPage = (props) => {
   )
 }
 
-export default MainSecondPage;
+export default MainHome;

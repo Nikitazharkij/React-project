@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import './App.sass';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer'
-import Loading from './Loading'
+import Router from './Router';
 
 class App extends Component {
   constructor(props) {
@@ -13,6 +10,12 @@ class App extends Component {
       error: null
     };
   }
+
+  loading() {
+    return (
+      <h1 className="loadingData"> Loading data ... </h1>
+    );
+  };
 
   componentDidMount() {
     const url = 'http://localhost:3006/continent'
@@ -31,7 +34,7 @@ class App extends Component {
 
   render() {
     const {data, error} = this.state
-    const content = data ? <Main data={data} /> : <Loading />;
+    const content = data ? <Router data={data} /> : this.loading();
 
     if (error) {
     return (
@@ -43,9 +46,7 @@ class App extends Component {
 
     return (
       <div className="app-wrapper">
-        <Header />
         {content}
-        <Footer />
       </div>
     )
   }

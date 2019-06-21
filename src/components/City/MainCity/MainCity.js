@@ -1,65 +1,65 @@
 import React from 'react';
-import s from './MainFirstPage.module.sass'
-import PicsCity from './PicsCity/PicsCity'
+import s from './MainCity.module.sass'
+import PicsCityPlaces from './PicsCityPlaces/PicsCityPlaces'
+import DescriptionCity from './DescriptionCity/DescriptionCity'
 
-const MainFirstPage = (props) => {
+const MainCity = (props) => {
 
-  let picsCityElementAfrica = props.state.africa.map (
-    p => <PicsCity key = {`${p.country}${p.id}`}
-                   country = {p.country}
-                   src = {p.src}
-                   city = {p.city} />
+  let descriptionCity = <DescriptionCity
+    country = "Amsterdam"
+    name = "Royal Palace"
+    descriptionCity = {props.data.africa[0].description} />
+
+  let placesOfCity = props.data.africa[0].places.map (
+    p => <PicsCityPlaces
+    key = {p.name}
+    name = {p.name}
+    src = {p.src}
+    type = {p.type} />
   )
 
-  let picsCityElementAsia = props.state.asia.map (
-    p => <PicsCity key = {`${p.country}${p.id}`}
-                   country = {p.country}
-                   src = {p.src}
-                   city = {p.city} />
+  let hotelOfCity = props.data.africa[0].hotels.map (
+    p => <PicsCityPlaces
+    key = {p.name}
+    name = {p.name}
+    src = {p.src}
+    type = {p.type} />
   )
-
-  let picsCityElementEurope = props.state.europe.map (
-    p => <PicsCity key = {`${p.country}${p.id}`}
-                   country = {p.country}
-                   src = {p.src}
-                   city = {p.city} />
-  )
-
   return (
     <div>
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>AFRICA</p>
+              <p>AMSTERDAM, NETHERLANDS</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
           <div className={`col-12 ${s.scrollCities}`}>
-            {picsCityElementAfrica}
+            {descriptionCity}
           </div>
         </div>
       </div>
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>ASIA</p>
+              <p>WHAT TO SEE</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
           <div className={`col-12 ${s.scrollCities}`}>
-            {picsCityElementAsia}
+            {placesOfCity}
           </div>
         </div>
       </div>
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>EUROPE</p>
+              <p>WHERE TO LIVE</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
           <div className={`col-12 ${s.scrollCities}`}>
-            {picsCityElementEurope}
+            {hotelOfCity}
           </div>
         </div>
       </div>
@@ -67,4 +67,4 @@ const MainFirstPage = (props) => {
   )
 }
 
-export default MainFirstPage;
+export default MainCity;

@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './HeaderSecondPage.module.sass'
+import s from './HeaderCity.module.sass'
 
-const HeaderSecondPage = (props) => {
+const HeaderCity = (props) => {
 
   return (
       <div className={s.headerPage}>
@@ -16,4 +16,4 @@ const HeaderSecondPage = (props) => {
   )
 }
 
-export default HeaderSecondPage;
+export default HeaderCity;
