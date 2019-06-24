@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import HeaderHome from './HeaderHome/HeaderHome';
 import MainHome from './MainHome/MainHome'
 import FooterHome from './FooterHome/FooterHome'

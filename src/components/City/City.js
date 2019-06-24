@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import HeaderCity from './HeaderCity/HeaderCity';
 import MainCity from './MainCity/MainCity'
 import FooterCity from './FooterCity/FooterCity'

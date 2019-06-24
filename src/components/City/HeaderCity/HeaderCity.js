@@ -1,18 +1,20 @@
 import React from 'react';
 import s from './HeaderCity.module.sass'
+import arrow from './img/arrow.png'
+import {NavLink} from 'react-router-dom';
 
 const HeaderCity = (props) => {
 
   return (
+    <header>
       <div className={s.headerPage}>
-        <div className="container">
-          <div className={`row ${s.headerTitle}`}>
-            <div className="col-12">
-              Hello World!!!
-            </div>
-          </div>
+        <div className="picHeader">
+          <NavLink to = "/">
+            <img className={s.arrow} src={arrow} alt="Arrow"/>
+          </NavLink>
         </div>
       </div>
+    </header>
   )
 }
 

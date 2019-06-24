@@ -7,44 +7,7 @@
           "id": 1,
           "city": "Addis Ababa",
           "country": "Ethiopia",
-          "src": "./img/Africa/AddisAbaba.jpg",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals",
-          "places":
-          [
-            {
-              "name": "Royal Palace",
-              "src": "./img/Africa/AddisAbaba.jpg",
-              "type": "Palace"
-            },
-            {
-              "name": "Van Gogh Museum",
-              "src": "./img/Africa/AddisAbaba.jpg",
-              "type": "Museum"
-            },
-            {
-              "name": "Castle Muiderslot",
-              "src": "./img/Africa/AddisAbaba.jpg",
-              "type": "Castle"
-            }
-          ],
-          "hotels":
-          [
-            {
-              "name": "dfdfdsf",
-              "src": "./img/Africa/Accra.jpg",
-              "type": "fdsffds"
-            },
-            {
-              "name": "dfdfdsf",
-              "src": "./img/Africa/Accra.jpg",
-              "type": "fdsffds"
-            },
-            {
-              "name": "dfdfdsf",
-              "src": "./img/Africa/Accra.jpg",
-              "type": "fdsffds"
-            }
-          ]
+          "src": "./img/Africa/AddisAbaba.jpg"
         },
         {
           "id": 2,
@@ -98,7 +61,57 @@
           "id": 1,
           "city": "Amsterdam",
           "country": "Netherlands",
-          "src": "./img/Europe/Amsterdam.jpg"
+          "src": "./img/Europe/Amsterdam.jpg",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Royal Palace",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "type": "Palace"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Van Gogh Museum",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "type": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Castle Muiderslot",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "type": "Castle"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Inntel Hotel",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "type": "Hotel"
+                },
+                {
+                  "id": 2,
+                  "name": "NH Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "type": "Hotel"
+                },
+                {
+                  "id": 3,
+                  "name": "Quentin Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "type": "Hotel"
+                }]
+              }
+          }
         },
         {
           "id": 2,
