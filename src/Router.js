@@ -6,7 +6,7 @@ import City from './components/City/City'
 const Router = (props) => {
 
   return (
-    <div className = "app-wrapper">
+    <div>
       <Route exact path = '/'
         render = {() => <Home
         data = {props.data} />}

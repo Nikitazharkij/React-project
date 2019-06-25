@@ -7,6 +7,8 @@ const MainHome = (props) => {
   const continentNames = Object.keys(props.data);
 
   const cityBoxes = continentNames.map(continentName => {
+    let lengthList = props.data[continentName].length;
+
     const contentCities = props.data[continentName].map(p =>
     <PicsCity key = {p.id} 
               country = {p.country} 
@@ -17,7 +19,7 @@ const MainHome = (props) => {
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>{continentName.toUpperCase()}</p>
+              <p>{`${continentName.toUpperCase()} (${lengthList})`}</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
@@ -30,9 +32,9 @@ const MainHome = (props) => {
   })
 
   return (
-    <div>
+    <main>
       {cityBoxes}
-    </div>
+    </main>
   )
 }
 

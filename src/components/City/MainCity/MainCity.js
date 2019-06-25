@@ -11,6 +11,8 @@ const MainCity = (props) => {
     descriptionCity = {data.description} />
 
   const spotsBox = spotType.map(item => {
+    let lengthList = data.spots[item].description.length;
+
     const contentSpot = data.spots[item].description.map(p =>
     <PicsCityPlaces
       key = {p.id}
@@ -23,7 +25,7 @@ const MainCity = (props) => {
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleContinent}`}>
-              <p>{data.spots[item].title.toUpperCase()}</p>
+              <p>{`${data.spots[item].title.toUpperCase()} (${lengthList})`}</p>
             </div>
         </div>
         <div className={`row ${s.lineCities}`}>
@@ -36,7 +38,7 @@ const MainCity = (props) => {
   })
 
   return (
-    <div>
+    <main>
       <div className={`container ${s.profileCities}`}>
         <div className="row">
             <div className={`col-12 ${s.titleCity}`}>
@@ -50,7 +52,7 @@ const MainCity = (props) => {
         </div>
       </div>
         {spotsBox}
-    </div>
+    </main>
   )
 }
 

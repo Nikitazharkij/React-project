@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './HeaderCity.module.sass'
-import arrow from './img/arrow.png'
+import arrow from './../../img/arrow.png'
 import {NavLink} from 'react-router-dom';
 
 const HeaderCity = (props) => {
