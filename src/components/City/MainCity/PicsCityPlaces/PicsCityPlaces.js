@@ -11,7 +11,7 @@ class PicsCityPlaces extends Component {
         </div>
         <div className={s.picCityText}>
           <h3>{this.props.name}</h3>
-          <h4>{this.props.type}</h4>
+          <h4>{this.props.info}</h4>
         </div>
       </div>
     )

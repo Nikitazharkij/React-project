@@ -20,7 +20,7 @@ class MainCity extends Component {
         key = {p.id}
         name = {p.name}
         src = {p.src}
-        type = {p.type} />
+        info = {p.info} />
     )
 
       return (

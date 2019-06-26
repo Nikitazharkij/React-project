@@ -74,19 +74,19 @@
                     "id": 1,
                     "name": "Royal Palace",
                     "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "type": "Palace"
+                    "info": "Palace"
                   },
                   {
                     "id": 2,
                     "name": "Van Gogh Museum",
                     "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "type": "Museum"
+                    "info": "Museum"
                   },
                   {
                     "id": 3,
                     "name": "Castle Muiderslot",
                     "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "type": "Castle"
+                    "info": "Castle"
                   }]
                 },
               "hotels":
@@ -97,19 +97,19 @@
                   "id": 1,
                   "name": "Inntel Hotel",
                   "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "type": "Hotel"
+                  "info": "120$"
                 },
                 {
                   "id": 2,
                   "name": "NH Hotel",
                   "src": "./img/Amsterdam/NHHotel.jpg",
-                  "type": "Hotel"
+                  "info": "250$"
                 },
                 {
                   "id": 3,
                   "name": "Quentin Hotel",
                   "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "type": "Hotel"
+                  "info": "180$"
                 }]
               }
           }
