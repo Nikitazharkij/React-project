@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import HeaderHome from './HeaderHome/HeaderHome';
 import MainHome from './MainHome/MainHome'
 import FooterHome from './FooterHome/FooterHome'
 
-const Home = (props) => {
+class Home extends Component {
 
-  return (
-    <div>
-      <HeaderHome />
-      <MainHome data = {props.data} />
-      <FooterHome />
-    </div>
-  )
+  render() {
+    return (
+      <div>
+        <HeaderHome />
+        <MainHome data = {this.props.data} />
+        <FooterHome />
+      </div>
+    )
+  }
 }
 
 export default Home;

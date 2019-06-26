@@ -1,19 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import s from './PicsCityPlaces.module.sass'
 
-const PicsCityPlaces = (props) => {
+class PicsCityPlaces extends Component {
 
-  return (
-    <div className={s.picCityFrame}>
-      <div>
-        <img className={s.previewCity} src={props.src} alt={props.name}/>
+  render() {
+    return (
+      <div className={s.picCityFrame}>
+        <div>
+          <img className={s.previewCity} src={this.props.src} alt={this.props.name}/>
+        </div>
+        <div className={s.picCityText}>
+          <h3>{this.props.name}</h3>
+          <h4>{this.props.type}</h4>
+        </div>
       </div>
-      <div className={s.picCityText}>
-        <h3>{props.name}</h3>
-        <h4>{props.type}</h4>
-      </div>
-    </div>
-  )
+    )
+  }
 }
 
 export default PicsCityPlaces;

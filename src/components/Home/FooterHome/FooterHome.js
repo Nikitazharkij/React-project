@@ -1,41 +1,43 @@
-import React from 'react';
+import React, { Component } from 'react';
 import s from './FooterHome.module.sass'
 import { NavLink } from 'react-router-dom';
 
-const FooterHome = (props) => {
+class FooterHome extends Component {
 
-  return (
-  <footer>
-    <div className="container">
-      <div className="row"> 
-        <div className="col-3">
-          <NavLink to = "/city/print">
-            <div className={s.imegBox} id={s.img1}>
-            </div>
-          </NavLink>
-        </div>
-        <div className="col-3">
-          <NavLink to = "/city/tv">
-            <div className={s.imegBox} id={s.img2}>
-            </div>
-          </NavLink>
-        </div>
-        <div className="col-3">
-        <NavLink to = "/city/present">
-          <div className={s.imegBox} id={s.img3}>
+  render() {
+    return (
+    <footer>
+      <div className="container">
+        <div className="row"> 
+          <div className="col-3">
+            <NavLink to = "/city/print">
+              <div className={s.imegBox} id={s.img1}>
+              </div>
+            </NavLink>
           </div>
-        </NavLink>
-        </div>
-        <div className="col-3">
-          <NavLink to = "/city/clock">
-            <div className={s.imegBox} id={s.img4}>
+          <div className="col-3">
+            <NavLink to = "/city/tv">
+              <div className={s.imegBox} id={s.img2}>
+              </div>
+            </NavLink>
+          </div>
+          <div className="col-3">
+          <NavLink to = "/city/present">
+            <div className={s.imegBox} id={s.img3}>
             </div>
           </NavLink>
+          </div>
+          <div className="col-3">
+            <NavLink to = "/city/clock">
+              <div className={s.imegBox} id={s.img4}>
+              </div>
+            </NavLink>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  )
+    </footer>
+    )
+  }
 }
 
 export default FooterHome;

@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import s from './DescriptionCity.module.sass'
 
-const DescriptionCity = (props) => {
+class DescriptionCity extends Component {
 
-  return (
-    <div className={s.descriptionText}>
-      <p>{props.descriptionCity}</p>
-    </div>
-  )
+  render() {
+    return (
+      <div className={s.descriptionText}>
+        <p>{this.props.descriptionCity}</p>
+      </div>
+    )
+  }
 }
 
 export default DescriptionCity;

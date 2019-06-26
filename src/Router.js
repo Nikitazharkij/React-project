@@ -1,22 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import City from './components/City/City'
 
-const Router = (props) => {
+class Router extends Component {
 
-  return (
-    <div>
-      <Route exact path = '/'
-        render = {() => <Home
-        data = {props.data} />}
-        />
-      <Route path = '/city'
-        render = {() => <City
-        data = {props.data} />}
-        />
-    </div>
-  )
+  render() {
+    return (
+      <div>
+        <Route exact path = '/'
+          render = {() => <Home
+          data = {this.props.data} />}
+          />
+        <Route path = '/city'
+          render = {() => <City
+          data = {this.props.data} />}
+          />
+      </div>
+    )
+  }
 }
 
 export default Router;

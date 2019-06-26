@@ -1,21 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import s from './HeaderCity.module.sass'
 import arrow from './../../img/arrow.png'
 import {NavLink} from 'react-router-dom';
 
-const HeaderCity = (props) => {
+class HeaderCity extends Component {
 
-  return (
-    <header>
-      <div className={s.headerPage}>
-        <div className="picHeader">
-          <NavLink to = "/">
-            <img className={s.arrow} src={arrow} alt="Arrow"/>
-          </NavLink>
+  render() {
+    return (
+      <header>
+        <div className={s.headerPage}>
+          <div className="picHeader">
+            <NavLink to = "/">
+              <img className={s.arrow} src={arrow} alt="Arrow"/>
+            </NavLink>
+          </div>
         </div>
-      </div>
-    </header>
-  )
+      </header>
+    )
+  }
 }
 
 export default HeaderCity;
