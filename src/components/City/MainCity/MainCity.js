@@ -10,7 +10,8 @@ class MainCity extends Component {
     const spotType = Object.keys(data.spots);
 
     const descriptionCity = <DescriptionCity
-      descriptionCity = {data.description} />
+      descriptionCity = {data.description}
+      descriptionCityShort = {data.descriptionShort}/>
 
     const spotsBox = spotType.map(item => {
       const lengthList = data.spots[item].description.length;
