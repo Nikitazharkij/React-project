@@ -1,73 +1,47 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.sass';
-import Router from './Router';
+import { Route } from 'react-router-dom';
 import { useFetch } from './useFetch';
+import HeaderHome from './pages/HeaderHome/HeaderHome';
+import HeaderCity from './pages/HeaderCity/HeaderCity';
+import Error from './components/Error/Error';
+import Loading from './components/Loading/Loading';
+import Footer from './components/Footer/Footer';
+import MainHome from './pages/MainHome/MainHome';
+import MainCity from './pages/MainCity/MainCity';
+import Print from  './pages/Print/Print';
+import Tv from './pages/Tv/Tv';
+import Present from './pages/Present/Present';
+import Clock from './pages/Clock/Clock';
 
 const App = (props) => {
   const [data, loading, error] = useFetch('http://localhost:3006/continent');
+
   return (
     <div className="app-wrapper">
-      { error && <div><h1>Something went wrong...</h1></div> }
-      { loading ? (
-        <div>
-          <h1>Loading...</h1>
-        </div>
-      ) : (
-        <Router data={data} />
-      )}
+      <header>
+        <Route exact path = '/' component={HeaderHome} />
+        <Route path = '/info' component={HeaderCity} />
+      </header>
+      <main>
+        { error && <Error /> }
+        { loading ? <Loading /> : (
+          <Fragment>
+            <Route exact path = '/' render = {() => <MainHome data = {data} />} />
+            <Route path = '/info/city' render = {() => <MainCity data = {data} />} />
+            <Route path = '/info/print' component={Print} />
+            <Route path = '/info/tv' component={Tv} />
+            <Route path = '/info/present' component={Present} />
+            <Route path = '/info/clock' component={Clock} />
+          </Fragment>
+          )
+        }
+      </main>
+      <footer> 
+        <Footer />
+      </footer>
     </div>
   )
 }
-
-
-// class App extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       data: null,
-//       error: null
-//     };
-//   }
-
-//   loading() {
-//     return (
-//       <h1 className="loadingData"> Loading data ... </h1>
-//     );
-//   };
-
-//   componentDidMount() {
-//     const url = 'http://localhost:3006/continent'
-
-//     fetch(url)
-//       .then(response => {
-//         if (response.ok) {
-//           return response.json();
-//         } else {
-//           throw new Error ("Something went wrong...");
-//         }
-//       })
-//       .then(data => this.setState({data: data}))
-//       .catch(error => this.setState({error: error}));
-//   }
-
-//   render() {
-//     const {data, error} = this.state
-//     const content = data ? <Router data={data} /> : this.loading();
-
-//     if (error) {
-//     return (
-//       <div className="error">
-//         <h1>{error.message}</h1>
-//       </div>
-//       )
-//     }
-
-//     return (
-//       <div className="app-wrapper">
-//         {content}
-//       </div>
-//     )
-//   }
-// }
 
 export default App;

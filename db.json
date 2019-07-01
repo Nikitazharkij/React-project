@@ -97,19 +97,19 @@
                   "id": 1,
                   "name": "Inntel Hotel",
                   "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "120$"
+                  "cost": "120$"
                 },
                 {
                   "id": 2,
                   "name": "NH Hotel",
                   "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "250$"
+                  "cost": "250$"
                 },
                 {
                   "id": 3,
                   "name": "Quentin Hotel",
                   "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "180$"
+                  "cost": "180$"
                 }]
               }
           }
