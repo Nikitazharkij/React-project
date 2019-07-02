@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import style from './MainCity.module.sass';
-import PicsCityPlaces from './../../components/Main/PicsCityPlaces/PicsCityPlaces';
-import PicsCityHotels from './../../components/Main/PicsCityHotels/PicsCityHotels';
 import DescriptionCity from './../../components/Main/DescriptionCity/DescriptionCity';
+import SightsInfo from './../../components/Main/SightsInfo/SightsInfo';
+import HotelsInfo from './../../components/Main/HotelsInfo/HotelsInfo';
+
 
 const MainCity = (props) => {
 
@@ -11,64 +12,11 @@ const MainCity = (props) => {
   const contentHotelsCity = data.spots.hotels.description;
   const lengthList = contentPlacesCity.length;
 
-  const descriptionCity = <DescriptionCity
-    descriptionCity = {data.description}
-    descriptionCityShort = {data.descriptionShort}/>
-
-  const placesBox = contentPlacesCity.map(namePlace =>
-    <PicsCityPlaces
-      key = {namePlace.id}
-      name = {namePlace.name}
-      src = {namePlace.src}
-      info = {namePlace.info} />
-  )
-
-  const hotelsBox = contentHotelsCity.map(nameHotel =>
-    <PicsCityHotels
-      key = {nameHotel.id}
-      name = {nameHotel.name}
-      src = {nameHotel.src}
-      cost = {nameHotel.cost} />
-  )
-
   return (
     <Fragment>
-      <div className={`container ${style.profileCities}`}>
-        <div className="row">
-            <div className={`col-12 ${style.titleCity}`}>
-              <p>{`${data.city}, ${data.country}`}</p>
-            </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            {descriptionCity}
-          </div>
-        </div>
-      </div>
-      <div className={`container ${style.profileCities}`}>
-        <div className="row">
-            <div className={`col-12 ${style.titleContinent}`}>
-              <p>{`${data.spots.places.title} (${lengthList})`}</p>
-            </div>
-        </div>
-        <div className={`row ${style.lineCities}`}>
-          <div className={`col-12 ${style.scrollCities}`}>
-            {placesBox}
-          </div>
-        </div>
-      </div>
-      <div className={`container ${style.profileCities}`}>
-        <div className="row">
-            <div className={`col-12 ${style.titleContinent}`}>
-              <p>{`${data.spots.places.title} (${lengthList})`}</p>
-            </div>
-        </div>
-        <div className={`row ${style.lineCities}`}>
-          <div className={`col-12 ${style.scrollCities}`}>
-            {hotelsBox}
-          </div>
-        </div>
-      </div>
+      <DescriptionCity data={data}/>
+      <SightsInfo data={data} contentPlacesCity={contentPlacesCity} lengthList={lengthList}/>
+      <HotelsInfo data={data} contentHotelsCity={contentHotelsCity} lengthList={lengthList}/>
     </Fragment>
   )
 }

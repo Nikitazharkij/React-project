@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './App.sass';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { useFetch } from './useFetch';
 import HeaderHome from './pages/HeaderHome/HeaderHome';
 import HeaderCity from './pages/HeaderCity/HeaderCity';
@@ -20,20 +20,24 @@ const App = (props) => {
   return (
     <div className="app-wrapper">
       <header>
-        <Route exact path = '/' component={HeaderHome} />
-        <Route path = '/info' component={HeaderCity} />
+        <Switch>
+          <Route exact path = '/' component={HeaderHome} />
+          <Route path = '/info' component={HeaderCity} />
+          <Route component={HeaderCity} />
+        </Switch>
       </header>
       <main>
         { error && <Error /> }
         { loading ? <Loading /> : (
-          <Fragment>
+          <Switch>
             <Route exact path = '/' render = {() => <MainHome data = {data} />} />
             <Route path = '/info/city' render = {() => <MainCity data = {data} />} />
             <Route path = '/info/print' component={Print} />
             <Route path = '/info/tv' component={Tv} />
             <Route path = '/info/present' component={Present} />
             <Route path = '/info/clock' component={Clock} />
-          </Fragment>
+            <Route component={Error} />
+          </Switch>
           )
         }
       </main>

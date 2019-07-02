@@ -1,36 +1,27 @@
-import React, { Component } from 'react';
-import style from './DescriptionCity.module.sass'
+import React from 'react';
+import style from './DescriptionCity.module.sass';
+import Description from './Description/Description';
 
-class DescriptionCity extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {isShow: false};
-    this.showText = this.showText.bind(this);
-  }
+const DescriptionCity = (props) => {
 
-  showText() {
-    this.setState({isShow: true});
-  }
+  const descriptionCity = <Description
+    descriptionCity = {props.data.description}
+    descriptionCityShort = {props.data.descriptionShort}/>
 
-  render() {
-    const isShow = this.state.isShow;
-    let text;
-
-    if (isShow) {
-      text = <p>{this.props.descriptionCity}</p>
-    } else {
-      text = <p>{this.props.descriptionCityShort}</p>
-    }
-
-    return (
-      <div className={style.descriptionText}>
-        {text}
-        <h4 onClick={ this.showText }>
-        {this.state.isShow ? ' ' : 'Read more'}
-        </h4>
+  return (
+    <div className={`container ${style.profileCities}`}>
+      <div className="row">
+        <div className={`col-12 ${style.titleCity}`}>
+          <p>{`${props.data.city}, ${props.data.country}`}</p>
+        </div>
       </div>
-    )
-  }
+      <div className="row">
+        <div className="col-12">
+          {descriptionCity}
+        </div>
+      </div>
+    </div>
+  )
 }
 
 export default DescriptionCity;

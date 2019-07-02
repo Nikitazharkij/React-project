@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './CityBoxes.module.sass';
-import PicsCity from './../PicsCity/PicsCity';
+import PicsCity from './PicsCity/PicsCity';
 
 const CityBoxes = (props) => {
 

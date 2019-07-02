@@ -1,7 +1,7 @@
 import React from 'react';
-import style from './PicsCityHotels.module.sass'
+import style from './CityPlacesPics.module.sass'
 
-const PicsCityHotels = (props) => {
+const CityPlacesPics = (props) => {
   return (
     <div className={style.picCityFrame}>
       <div>
@@ -9,10 +9,10 @@ const PicsCityHotels = (props) => {
       </div>
       <div className={style.picCityText}>
         <h3>{props.name}</h3>
-        <h4>{props.cost}</h4>
+        <h4>{props.info}</h4>
       </div>
     </div>
   )
 }
 
-export default PicsCityHotels;
+export default CityPlacesPics;
