@@ -9,7 +9,7 @@ const MainHome = (props) => {
     <CityBoxes
       key={continentName}
       data={props.data}
-      continentName={continentName}/>
+      continentName={continentName} />
   )
 
   return (

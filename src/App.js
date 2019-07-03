@@ -35,7 +35,7 @@ const App = (props) => {
             <Route path = '/info/print' component={Print} />
             <Route path = '/info/tv' component={Tv} />
             <Route path = '/info/present' component={Present} />
-            <Route path = '/info/clock' component={Clock} />
+            <Route path = '/info/clock' component={Clock} /> 
             <Route component={Error} />
           </Switch>
           )

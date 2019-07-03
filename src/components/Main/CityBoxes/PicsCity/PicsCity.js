@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import style from './PicsCity.module.sass'
 
 const PicsCity = (props) => {
@@ -8,7 +8,7 @@ const PicsCity = (props) => {
 
   return (
     <div>
-      <NavLink to = {path}>
+      <Link to = {path}>
         <div className={style.picCityFrame}>
           <div>
             <img className={style.previewCity} src={props.src} alt={props.country}/>
@@ -17,7 +17,7 @@ const PicsCity = (props) => {
             <p>{props.city}</p>
           </div>
         </div>
-      </NavLink>
+      </Link>
     </div>
   )
 }

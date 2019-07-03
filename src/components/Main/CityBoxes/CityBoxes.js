@@ -5,11 +5,11 @@ import PicsCity from './PicsCity/PicsCity';
 const CityBoxes = (props) => {
 
   let lengthList = props.data[props.continentName].length;
-  const contentCities = props.data[props.continentName].map(p =>
-  <PicsCity key = {p.id} 
-            country = {p.country} 
-            src = {p.src}
-            city = {p.city} />
+  const contentCities = props.data[props.continentName].map(contentCity =>
+  <PicsCity key = {contentCity.id}
+            country = {contentCity.country}
+            src = {contentCity.src}
+            city = {contentCity.city} />
   )
 
   return (

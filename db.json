@@ -7,25 +7,229 @@
           "id": 1,
           "city": "Addis Ababa",
           "country": "Ethiopia",
-          "src": "./img/Africa/AddisAbaba.jpg"
+          "src": "./img/Africa/AddisAbaba.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "National Museum",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Holy Trinity Cathedral",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Church"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Derg Monument",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Monument"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Melala Addis",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "220$"
+                },
+                {
+                  "id": 2,
+                  "name": "Hilton Addis Ababa",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "185$"
+                },
+                {
+                  "id": 3,
+                  "name": "Ag Palace Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "105$"
+                }]
+              }
+            }
         },
         {
           "id": 2,
           "city": "Cairo",
           "country": "Egipt",
-          "src": "./img/Africa/Cairo.jpg"
+          "src": "./img/Africa/Cairo.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Pyramids of Giza",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Pyramids"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Egyptian Museum",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Al Azhar Mosque",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Palace"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Ramses Hilton",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "320$"
+                },
+                {
+                  "id": 2,
+                  "name": "Safary Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "115$"
+                },
+                {
+                  "id": 3,
+                  "name": "Cairo Marriott Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "380$"
+                }]
+              }
+          }
         },
         {
           "id": 3,
           "city": "Dakar",
           "country": "Senegal",
-          "src": "./img/Africa/Dakar.jpg"
+          "src": "./img/Africa/Dakar.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Mamelles Lighthouse",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Palace"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Médina",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Layen Mausoleum",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Palace"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Hotel Novotel Dakar",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "135$"
+                },
+                {
+                  "id": 2,
+                  "name": "TERROU-BI HOTEL",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "450$"
+                },
+                {
+                  "id": 3,
+                  "name": "Le Djoloff",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "155$"
+                }]
+              }
+          }
         },
         {
           "id": 4,
           "city": "Accra",
           "country": "Ghana",
-          "src": "./img/Africa/Accra.jpg"
+          "src": "./img/Africa/Accra.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Makola Market",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Market"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Independence Square",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Square"
+                  },
+                  {
+                    "id": 3,
+                    "name": "National Museum",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Museum"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Golden Tulip Accra",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "145$"
+                },
+                {
+                  "id": 2,
+                  "name": "Jenos Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "185$"
+                },
+                {
+                  "id": 3,
+                  "name": "Bays Lodge",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "140$"
+                }]
+              }
+          }
         }
       ],
       "asia":
@@ -34,25 +238,229 @@
           "id": 1,
           "city": "Agra",
           "country": "India",
-          "src": "./img/Asia/Agra.jpg"
+          "src": "./img/Asia/Agra.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Mamelles Lighthouse",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Palace"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Médina",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Layen Mausoleum",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Palace"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Hotel Novotel Dakar",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "135$"
+                },
+                {
+                  "id": 2,
+                  "name": "TERROU-BI HOTEL",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "450$"
+                },
+                {
+                  "id": 3,
+                  "name": "Le Djoloff",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "155$"
+                }]
+              }
+          }
         },
         {
           "id": 2,
           "city": "Astana",
           "country": "Kazakhstan",
-          "src": "./img/Asia/Astana.jpg"
+          "src": "./img/Asia/Astana.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Royal Palace",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Palace"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Van Gogh Museum",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Castle Muiderslot",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Castle"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Inntel Hotel",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "120$"
+                },
+                {
+                  "id": 2,
+                  "name": "NH Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "250$"
+                },
+                {
+                  "id": 3,
+                  "name": "Quentin Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "180$"
+                }]
+              }
+          }
         },
         {
           "id": 3,
           "city": "Bangkok",
           "country": "Thailand",
-          "src": "./img/Asia/Bangkok.jpg"
+          "src": "./img/Asia/Bangkok.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "National Museum",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Holy Trinity Cathedral",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Church"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Derg Monument",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Monument"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Melala Addis",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "220$"
+                },
+                {
+                  "id": 2,
+                  "name": "Hilton Addis Ababa",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "185$"
+                },
+                {
+                  "id": 3,
+                  "name": "Ag Palace Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "105$"
+                }]
+              }
+          }
         },
         {
           "id": 4,
           "city": "Tokoi",
           "country": "Japan",
-          "src": "./img/Asia/Tokio.jpg"
+          "src": "./img/Asia/Tokio.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Pyramids of Giza",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Pyramids"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Egyptian Museum",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Al Azhar Mosque",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Palace"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Ramses Hilton",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "320$"
+                },
+                {
+                  "id": 2,
+                  "name": "Safary Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "115$"
+                },
+                {
+                  "id": 3,
+                  "name": "Cairo Marriott Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "380$"
+                }]
+              }
+          }
       }
       ],
       "europe":
@@ -118,19 +526,178 @@
           "id": 2,
           "city": "Antalya",
           "country": "Turkey",
-          "src": "./img/Europe/Antalya.jpg"
+          "src": "./img/Europe/Antalya.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Royal Palace",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Palace"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Van Gogh Museum",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Castle Muiderslot",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Castle"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Inntel Hotel",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "120$"
+                },
+                {
+                  "id": 2,
+                  "name": "NH Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "250$"
+                },
+                {
+                  "id": 3,
+                  "name": "Quentin Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "180$"
+                }]
+              }
+          }
         },
         {
           "id": 3,
           "city": "Berlin",
           "country": "Germany",
-          "src": "./img/Europe/Berlin.jpg"
+          "src": "./img/Europe/Berlin.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Royal Palace",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Palace"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Van Gogh Museum",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Castle Muiderslot",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Castle"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Inntel Hotel",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "120$"
+                },
+                {
+                  "id": 2,
+                  "name": "NH Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "250$"
+                },
+                {
+                  "id": 3,
+                  "name": "Quentin Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "180$"
+                }]
+              }
+          }
         },
         {
           "id": 4,
           "city": "Prague",
           "country": "Czech",
-          "src": "./img/Europe/Prague.jpg"
+          "src": "./img/Europe/Prague.jpg",
+          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking places and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotels and hostels can be found on different locations, value for money and ambience.",
+          "spots":
+            {
+              "places":
+              {
+                "title": "What to see",
+                "description":
+                  [{
+                    "id": 1,
+                    "name": "Royal Palace",
+                    "src": "./img/Amsterdam/RoyalPalace.jpg",
+                    "info": "Palace"
+                  },
+                  {
+                    "id": 2,
+                    "name": "Van Gogh Museum",
+                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+                    "info": "Museum"
+                  },
+                  {
+                    "id": 3,
+                    "name": "Castle Muiderslot",
+                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+                    "info": "Castle"
+                  }]
+                },
+              "hotels":
+              {
+                  "title": "Where to live",
+                  "description":
+                [{
+                  "id": 1,
+                  "name": "Inntel Hotel",
+                  "src": "./img/Amsterdam/InntelHotel.jpg",
+                  "cost": "120$"
+                },
+                {
+                  "id": 2,
+                  "name": "NH Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "250$"
+                },
+                {
+                  "id": 3,
+                  "name": "Quentin Hotel",
+                  "src": "./img/Amsterdam/QuentinHotel.jpg",
+                  "cost": "180$"
+                },
+                {
+                  "id": 4,
+                  "name": "NH Hotel",
+                  "src": "./img/Amsterdam/NHHotel.jpg",
+                  "cost": "250$"
+                }]
+              }
+          }
         }
       ]
     }
