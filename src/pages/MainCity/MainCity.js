@@ -5,14 +5,13 @@ import HotelsInfo from './../../components/Main/HotelsInfo/HotelsInfo';
 
 
 const MainCity = (props) => {
+
   let data = null;
-  const getPath = window.location.href.split('/');
-  const lastItem = getPath[getPath.length - 1];
-  const nameCity = decodeURIComponent(lastItem);
-  const nameContinent = getPath[getPath.length - 2];
+  let continentName = props.match.params.continentName;
+  let cityName = props.match.params.cityName;
 
   for (let key in props.data) {
-    if (key === nameContinent) {
+    if (key === continentName) {
       findCity(key);
       break;
     }
@@ -20,7 +19,7 @@ const MainCity = (props) => {
 
   function findCity(key) {
     for (let i = 0; i < props.data[key].length; i++) {
-      if (props.data[key][i].city === nameCity) {
+      if (props.data[key][i].city === cityName) {
         data = props.data[key][i]
         break;
       }

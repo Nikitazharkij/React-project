@@ -30,8 +30,9 @@ const App = (props) => {
         { error && <Error /> }
         { loading ? <Loading /> : (
           <Switch>
-            <Route exact path = '/' render = {() => <MainHome data = {data} />} />
-            <Route path = '/info/city' render = {() => <MainCity data = {data} />} />
+            <Route exact path = '/' render = {() => <MainHome data={data} />} />
+            <Route path = '/info/city/:continentName/:cityName'
+                   render = {({ match }) => <MainCity data={data} match={match}/>} />
             <Route path = '/info/print' component={Print} />
             <Route path = '/info/tv' component={Tv} />
             <Route path = '/info/present' component={Present} />
