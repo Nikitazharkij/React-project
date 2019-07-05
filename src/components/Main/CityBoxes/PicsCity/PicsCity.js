@@ -4,7 +4,7 @@ import style from './PicsCity.module.sass'
 
 const PicsCity = (props) => {
 
-  const path = `/info/city/${props.city}`;
+  const path = `/info/city/${props.continentName}/${props.city}`;
 
   return (
     <div>

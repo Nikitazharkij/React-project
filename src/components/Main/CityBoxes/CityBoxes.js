@@ -9,7 +9,8 @@ const CityBoxes = (props) => {
   <PicsCity key = {contentCity.id}
             country = {contentCity.country}
             src = {contentCity.src}
-            city = {contentCity.city} />
+            city = {contentCity.city}
+            continentName= {props.continentName} /> 
   )
 
   return (

@@ -9,11 +9,20 @@ const MainCity = (props) => {
   const getPath = window.location.href.split('/');
   const lastItem = getPath[getPath.length - 1];
   const nameCity = decodeURIComponent(lastItem);
+  const nameContinent = getPath[getPath.length - 2];
 
   for (let key in props.data) {
+    if (key === nameContinent) {
+      findCity(key);
+      break;
+    }
+  }
+
+  function findCity(key) {
     for (let i = 0; i < props.data[key].length; i++) {
       if (props.data[key][i].city === nameCity) {
         data = props.data[key][i]
+        break;
       }
     }
   }
