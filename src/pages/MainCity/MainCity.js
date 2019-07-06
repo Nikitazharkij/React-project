@@ -10,32 +10,30 @@ const MainCity = (props) => {
   let continentName = props.match.params.continentName;
   let cityName = props.match.params.cityName;
 
-  for (let key in props.data) {
-    if (key === continentName) {
-      findCity(key);
+  for (let i = 0; i < props.data[continentName].length; i++) {
+    if (props.data[continentName][i].city === cityName) {
+      data = props.data[continentName][i]
       break;
     }
   }
 
-  function findCity(key) {
-    for (let i = 0; i < props.data[key].length; i++) {
-      if (props.data[key][i].city === cityName) {
-        data = props.data[key][i]
-        break;
-      }
-    }
-  }
 
-  const contentPlacesCity = data.spots.places.description;
-  const contentHotelsCity = data.spots.hotels.description;
+  const contentPlacesCity = data.spots.place.description;
+  const contentHotelsCity = data.spots.hotel.description;
   const lengthPlacesList = contentPlacesCity.length;
   const lengthHotelsList = contentHotelsCity.length;
 
   return (
     <Fragment>
       <DescriptionCity data={data}/>
-      <SightsInfo data={data} contentPlacesCity={contentPlacesCity} lengthList={lengthPlacesList}/>
-      <HotelsInfo data={data} contentHotelsCity={contentHotelsCity} lengthList={lengthHotelsList}/>
+      <SightsInfo data={data}
+        continentName={continentName}
+        contentPlacesCity={contentPlacesCity}
+        lengthList={lengthPlacesList}/>
+      <HotelsInfo data={data}
+        continentName={continentName}
+        contentHotelsCity={contentHotelsCity}
+        lengthList={lengthHotelsList}/>
     </Fragment>
   )
 }

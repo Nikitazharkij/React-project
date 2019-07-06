@@ -9,6 +9,7 @@ import Loading from './components/Loading/Loading';
 import Footer from './components/Footer/Footer';
 import MainHome from './pages/MainHome/MainHome';
 import MainCity from './pages/MainCity/MainCity';
+import MainPlace from './pages/MainPlace/MainPlace';
 import Print from  './pages/Print/Print';
 import Tv from './pages/Tv/Tv';
 import Present from './pages/Present/Present';
@@ -31,8 +32,10 @@ const App = (props) => {
         { loading ? <Loading /> : (
           <Switch>
             <Route exact path = '/' render = {() => <MainHome data={data} />} />
-            <Route path = '/info/city/:continentName/:cityName'
+            <Route exact path = '/info/city/:continentName/:cityName'
                    render = {({ match }) => <MainCity data={data} match={match}/>} />
+            <Route path = '/info/city/:continentName/:cityName/:typePlace/:placeName'
+                   render = {({ match }) => <MainPlace data={data} match={match}/>} />
             <Route path = '/info/print' component={Print} />
             <Route path = '/info/tv' component={Tv} />
             <Route path = '/info/present' component={Present} />

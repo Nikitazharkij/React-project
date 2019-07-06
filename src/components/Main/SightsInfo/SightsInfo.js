@@ -8,16 +8,18 @@ const SightsInfo = (props) => {
   const placesBox = props.contentPlacesCity.map(placeName =>
     <CityPlacesPics
       key = {placeName.id}
-      name = {placeName.name}
+      cityName = {props.data.city}
+      continentName={props.continentName}
+      placeName = {placeName.name}
       src = {placeName.src}
-      info = {placeName.info} />
+      type = {placeName.type} />
   )
 
   return (
     <div className={`container ${style.profileCities}`}>
       <div className="row">
           <div className={`col-12 ${style.titleContinent}`}>
-            <p>{`${props.data.spots.places.title} (${props.lengthList})`}</p>
+            <p>{`${props.data.spots.place.title} (${props.lengthList})`}</p>
           </div>
       </div>
       <div className={`row ${style.lineCities}`}>
