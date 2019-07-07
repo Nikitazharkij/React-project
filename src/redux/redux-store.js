@@ -1,8 +1,8 @@
 import { combineReducers, createStore } from 'redux';
-import mainCityReducer from './mainCity-reducer';
+import postsInfoReducer from './postsInfo-reducer';
 
-let reducers = combineReducers({ 
-  mainCityPage: mainCityReducer
+let reducers = combineReducers({
+  postsInfoPage: postsInfoReducer
 });
 
 let store = createStore(reducers);

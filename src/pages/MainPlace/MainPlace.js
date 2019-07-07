@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import style from './MainPlace.module.sass';
 import DescriptionPlace from './../../components/Main/DescriptionPlace/DescriptionPlace';
+import PostsInfoContainer from './../../components/Main/PostsInfo/PostsInfoContainer';
 
 const MainPlace = (props) => {
 
@@ -30,6 +30,7 @@ const MainPlace = (props) => {
   return (
     <Fragment>
       <DescriptionPlace data={data} placeName={placeName} />
+      <PostsInfoContainer />
     </Fragment>
   )
 }
