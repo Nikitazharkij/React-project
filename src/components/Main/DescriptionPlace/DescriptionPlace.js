@@ -14,7 +14,7 @@ const DescriptionPlace = (props) => {
         <div className="col-12">
           <div className={style.descriptionText}>
             <p>
-              {props.data}
+              {props.data.info}
             </p>
           </div>
         </div>

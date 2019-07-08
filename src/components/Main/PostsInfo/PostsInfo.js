@@ -1,39 +1,46 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const PostsInfo = (props) => { 
+class PostsInfo extends Component {
+  constructor(props) {
+  super(props);
+  this.onSendMessageClick = this.onSendMessageClick.bind(this);
+  this.onNewMessageChange = this.onNewMessageChange.bind(this);
+}
 
-  let state = props.postsInfoPage;  
-
-  let postsElements = state.messages.map(postElement =>
-    <div key={postElement.id}>
-      <h2>{postElement.name}</h2>
-      <h2>{postElement.message}</h2>
-    </div>
-    )
-    
-  let newMessageBody = state.newMessageBody;
-
-  let onSendMessageClick = () => {
-    props.sendMessage();
+  componentDidMount() {
+    this.props.cleanMessages();
+    this.props.setUsers(this.props.data.messages);
   }
 
-  let onNewMessageChange = (e) => {
+  onSendMessageClick() {
+    this.props.sendMessage();
+  }
+
+  onNewMessageChange(e) {
     let body = e.target.value;
-    props.updateNewMessageBody(body);
+    this.props.updateNewMessageBody(body);
   }
 
-  return (
-    <div>
-      <div>{postsElements}</div>
-        <div>
-          <textarea value = {newMessageBody}
-            onChange={onNewMessageChange}
-            placeholder="Enter your message">
-          </textarea>
-        </div>
-        <div><button onClick={onSendMessageClick}>Send</button></div>
-    </div>
-  )
+  render() {
+ let message = this.props.usersMessages.newMessage;
+    return (
+      <div>
+        {this.props.usersMessages.users.map(postElement =>
+          <div key={postElement.id}>
+            <h2>{postElement.name}</h2>
+            <h2>{postElement.message}</h2>
+          </div>
+        )}
+          <div>
+            <textarea value = {message}
+              onChange={this.onNewMessageChange}
+              placeholder="Enter your message">
+            </textarea>
+          </div>
+          <div><button onClick={this.onSendMessageClick}>Send</button></div>
+      </div>
+    )
+  }
 }
 
 export default PostsInfo;

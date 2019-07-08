@@ -21,7 +21,7 @@ const MainPlace = (props) => {
   function findPlaceDescription(dataPlaces) {
     for (let i = 0; i < dataPlaces.length; i++) {
       if (dataPlaces[i].name === placeName) {
-        data = dataPlaces[i].info;
+        data = dataPlaces[i];
         break;
       }
     }
@@ -30,7 +30,7 @@ const MainPlace = (props) => {
   return (
     <Fragment>
       <DescriptionPlace data={data} placeName={placeName} />
-      <PostsInfoContainer />
+      <PostsInfoContainer data={data} />
     </Fragment>
   )
 }
