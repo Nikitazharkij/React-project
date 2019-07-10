@@ -1,8 +1,7 @@
 import {
   sendMessageCreator,
   updateNewMessageBodyCreator,
-  setUsersCreator,
-  cleanMessageCreator } from './../../../redux/postsInfo-reducer'
+  setUsersCreator } from './../../../redux/postsInfo-reducer'
 import PostsInfo from './PostsInfo';
 import { connect } from 'react-redux';
 
@@ -22,9 +21,6 @@ let mapDispatchToProps = (dispatch) => {
     },
     setUsers: (users) => {
       dispatch(setUsersCreator(users));
-    },
-    cleanMessages: () => {
-      dispatch(cleanMessageCreator());
     }
   }
 }

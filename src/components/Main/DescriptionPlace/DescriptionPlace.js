@@ -4,10 +4,10 @@ import style from './DescriptionPlace.module.sass';
 const DescriptionPlace = (props) => {
 
   return (
-    <div className={`container ${style.profileCities}`}>
+    <div className="container">
       <div className="row">
         <div className={`col-12 ${style.titleCity}`}>
-          <p>{props.placeName}</p>
+          <p>{props.placeSlug}</p>
         </div>
       </div>
       <div className="row">

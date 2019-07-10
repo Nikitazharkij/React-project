@@ -1,7 +1,6 @@
 const UPDATE_NEW_MESSAGE_BODY = "UPDATE-NEW-MESSAGE-BODY";
 const SEND_MESSAGE = "SEND-MESSAGE";
 const SET_POSTS = "SET-POSTS";
-const CLEAN_MESSAGES = "CLEAN-MESSAGES";
 
 // let initialState = {
 //   messages: [
@@ -11,7 +10,7 @@ const CLEAN_MESSAGES = "CLEAN-MESSAGES";
 //     {id: 4, name: 'Sasha', message: 'Yoy'},
 //     {id: 5, name: 'Victor', message: 'Yoy'}
 //   ],
-//   newMessageBody: ""
+//   newMessage: ""
 // };
 
 let initialState = {
@@ -35,10 +34,7 @@ const postsInfoReducer = (state = initialState, action) => {
         users: [...state.users, {id: 6, name: 'Nikita', message: body}]
       };
     case SET_POSTS: {
-      return {...state, users: [...state.users, ...action.users]}
-    }
-    case CLEAN_MESSAGES: {
-      return {...state, users: []}
+      return {...state, users: action.users}
     }
     default:
       return state;
@@ -50,6 +46,5 @@ export const sendMessageCreator = () => ({type: SEND_MESSAGE});
 export const updateNewMessageBodyCreator = (body) =>
   ({type: UPDATE_NEW_MESSAGE_BODY, body: body});
 export const setUsersCreator = (users) => ({type: SET_POSTS, users});
-export const cleanMessageCreator = () => ({type: CLEAN_MESSAGES});
 
 export default postsInfoReducer;

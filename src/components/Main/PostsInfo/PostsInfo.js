@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import style from './PostsInfo.module.sass';
 
 class PostsInfo extends Component {
   constructor(props) {
@@ -8,7 +9,6 @@ class PostsInfo extends Component {
 }
 
   componentDidMount() {
-    this.props.cleanMessages();
     this.props.setUsers(this.props.data.messages);
   }
 
@@ -22,22 +22,33 @@ class PostsInfo extends Component {
   }
 
   render() {
- let message = this.props.usersMessages.newMessage;
+    let currentMessageText = this.props.usersMessages.newMessage;
+
+    let usersMessages = this.props.usersMessages.users.map(messageUserElement =>
+      <div key={messageUserElement.id} className="row">
+        <div className={`col-12 ${style.messageBox}`}>
+          <h2>{messageUserElement.name}</h2>
+          <p>{messageUserElement.message}</p>
+        </div>
+      </div>
+    )
+
     return (
-      <div>
-        {this.props.usersMessages.users.map(postElement =>
-          <div key={postElement.id}>
-            <h2>{postElement.name}</h2>
-            <h2>{postElement.message}</h2>
-          </div>
-        )}
-          <div>
-            <textarea value = {message}
+      <div className="container">
+        {usersMessages}
+        <div className={`row ${style.textAreaBox}`}>
+          <div className="col-12">
+            <textarea value = {currentMessageText}
               onChange={this.onNewMessageChange}
               placeholder="Enter your message">
             </textarea>
           </div>
-          <div><button onClick={this.onSendMessageClick}>Send</button></div>
+        </div>
+          <div className={`row ${style.buttonBox}`} >
+            <div className="col-12">
+              <button onClick={this.onSendMessageClick} type="button" className="btn btn-primary btn-lg">Send</button>
+            </div>
+          </div>
       </div>
     )
   }

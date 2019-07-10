@@ -4,9 +4,9 @@ import { Route, Switch } from 'react-router-dom';
 import { useFetch } from './useFetch';
 import HeaderHome from './pages/HeaderHome/HeaderHome';
 import HeaderCity from './pages/HeaderCity/HeaderCity';
-import Error from './components/Error/Error';
-import Loading from './components/Loading/Loading';
-import Footer from './components/Footer/Footer';
+import Error from './pages/Error/Error';
+import Loading from './pages/Loading/Loading';
+import Footer from './pages/Footer/Footer';
 import MainHome from './pages/MainHome/MainHome';
 import MainCity from './pages/MainCity/MainCity';
 import MainPlace from './pages/MainPlace/MainPlace';
@@ -32,9 +32,9 @@ const App = (props) => {
         { loading ? <Loading /> : (
           <Switch>
             <Route exact path = '/' render = {() => <MainHome data={data} />} />
-            <Route exact path = '/info/city/:continentName/:cityName'
+            <Route exact path = '/info/city/:continentName/:citySlug'
                    render = {({ match }) => <MainCity data={data} match={match}/>} />
-            <Route path = '/info/city/:continentName/:cityName/:typePlace/:placeName'
+            <Route path = '/info/city/:continentName/:citySlug/:typePlace/:placeSlug'
                    render = {({ match }) => <MainPlace data={data} match={match}/>} />
             <Route path = '/info/print' component={Print} />
             <Route path = '/info/tv' component={Tv} />

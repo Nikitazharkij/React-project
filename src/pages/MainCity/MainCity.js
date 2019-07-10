@@ -8,10 +8,10 @@ const MainCity = (props) => {
 
   let data = null;
   let continentName = props.match.params.continentName;
-  let cityName = props.match.params.cityName;
+  let citySlug = props.match.params.citySlug;
 
   for (let i = 0; i < props.data[continentName].length; i++) {
-    if (props.data[continentName][i].city === cityName) {
+    if (props.data[continentName][i].city === citySlug) {
       data = props.data[continentName][i]
       break;
     }
