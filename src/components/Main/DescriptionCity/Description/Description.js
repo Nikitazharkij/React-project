@@ -4,19 +4,19 @@ import style from './Description.module.sass'
 class Description extends Component {
   constructor(props) {
     super(props);
-    this.state = {isShow: false};
+    this.state = {showDetailed: false};
     this.showText = this.showText.bind(this);
   }
 
   showText() {
-    this.setState({isShow: true});
+    this.setState({showDetailed: true});
   }
 
   render() {
-    const isShow = this.state.isShow;
+    const showDetailed = this.state.showDetailed;
     let text;
 
-    if (isShow) {
+    if (showDetailed) {
       text = <p>{this.props.descriptionCity}</p>
     } else {
       text = <p>{this.props.descriptionCityShort}</p>
@@ -26,7 +26,7 @@ class Description extends Component {
       <div className={style.descriptionText}>
         {text}
         <h4 onClick={ this.showText }>
-        {this.state.isShow ? ' ' : 'Read more'}
+        {this.state.showDetailed ? ' ' : 'Read more'}
         </h4>
       </div>
     )
