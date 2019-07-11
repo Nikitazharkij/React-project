@@ -7,14 +7,14 @@ const DescriptionPlace = (props) => {
     <div className="container">
       <div className="row">
         <div className={`col-12 ${style.titleCity}`}>
-          <p>{props.placeSlug}</p>
+          <p>{props.placeName}</p>
         </div>
       </div>
       <div className="row">
         <div className="col-12">
           <div className={style.descriptionText}>
             <p>
-              {props.data.info}
+              {props.placeInfo}
             </p>
           </div>
         </div>

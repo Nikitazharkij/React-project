@@ -1,15 +1,12 @@
 import React, { Fragment } from 'react';
-import CityBoxes from './../../components/Main/CityBoxes/CityBoxes'
+import CityBoxes from './../../components/CityBoxes/CityBoxes'
 
 const MainHome = (props) => {
 
-  const continentNames = Object.keys(props.data);
-
-  const cityBoxes = continentNames.map(continentName =>
+  const cityBoxes = props.data.map(continentContent =>
     <CityBoxes
-      key={continentName}
-      data={props.data}
-      continentName={continentName} />
+      key={continentContent.id}
+      data={continentContent} />
   )
 
   return (

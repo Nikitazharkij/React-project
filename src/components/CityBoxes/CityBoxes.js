@@ -4,18 +4,19 @@ import PicsCity from './PicsCity/PicsCity';
 
 const CityBoxes = (props) => {
 
-  let lengthList = props.data[props.continentName].length;
-  const contentCities = props.data[props.continentName].map(contentCity =>
-  <PicsCity key = {contentCity.id}
-            contentCity = {contentCity}
-            continentName= {props.continentName} />
+  let citiesCount = props.data.cities.length;
+  const contentCities = props.data.cities.map(cityContent =>
+  <PicsCity key = {cityContent.id}
+            cityName = {cityContent.name}
+            src={cityContent.src}
+            continentNumber= {props.data.id} />
   )
 
   return (
     <div className={`container ${style.profileCities}`} key = {props.continentName}>
       <div className="row">
           <div className={`col-12 ${style.titleContinent}`}>
-            <p>{`${props.continentName} (${lengthList})`}</p>
+            <p>{`${props.data.name} (${citiesCount})`}</p>
           </div>
       </div>
       <div className={`row ${style.lineCities}`}>

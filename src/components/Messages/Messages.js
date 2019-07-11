@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import style from './PostsInfo.module.sass';
+import style from './Messages.module.sass';
 
-class PostsInfo extends Component {
+class Messages extends Component {
   constructor(props) {
   super(props);
   this.onSendMessageClick = this.onSendMessageClick.bind(this);
@@ -9,7 +9,7 @@ class PostsInfo extends Component {
 }
 
   componentDidMount() {
-    this.props.setUsers(this.props.data.messages);
+    this.props.setMessages(this.props.data);
   }
 
   onSendMessageClick() {
@@ -54,4 +54,4 @@ class PostsInfo extends Component {
   }
 }
 
-export default PostsInfo;
+export default Messages;

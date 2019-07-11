@@ -1,21 +1,28 @@
 import React, { Fragment } from 'react';
-import DescriptionCity from './../../components/Main/DescriptionCity/DescriptionCity';
-import SightsInfo from './../../components/Main/SightsInfo/SightsInfo';
-import HotelsInfo from './../../components/Main/HotelsInfo/HotelsInfo';
+import DescriptionCity from './../../components/DescriptionCity/DescriptionCity';
+import PlacesInfo from './../../components/PlacesInfo/PlacesInfo';
+import HotelsInfo from './../../components/HotelsInfo/HotelsInfo';
+import Error from './../Error/Error';
+import Loading from './../Loading/Loading';
+import { useFetch } from './../../useFetch.js';
 
 const MainCity = (props) => {
-
-  let continentName = props.match.params.continentName;
   let citySlug = props.match.params.citySlug;
-  let cityItem = props.data[continentName].find(item => item.city === citySlug);
+
+  const [data, loading, error] = useFetch(`http://localhost:3006/cities?name=${citySlug}&_embed=places&_embed=hotels`);
+
+  let cityContent = data.find(item => item.name === citySlug);
 
   return (
     <Fragment>
-      <DescriptionCity data={cityItem}/>
-      <SightsInfo data={cityItem}
-                  continentName={continentName}/>
-      <HotelsInfo data={cityItem}
-                  continentName={continentName} />
+      { error && <Error /> }
+      { loading ? <Loading /> : (
+      <Fragment>
+        <DescriptionCity data={cityContent} />
+        <PlacesInfo data={cityContent} />
+        <HotelsInfo data={cityContent} />
+      </Fragment>
+      )}
     </Fragment>
   )
 }

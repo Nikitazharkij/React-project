@@ -1,13 +1,13 @@
 import {
   sendMessageCreator,
   updateNewMessageBodyCreator,
-  setUsersCreator } from './../../../redux/postsInfo-reducer'
-import PostsInfo from './PostsInfo';
+  setUsersCreator } from './../../redux/messages-reducer';
+import Messages from './Messages';
 import { connect } from 'react-redux';
 
 let mapStateToProps = (state) => {
   return {
-    usersMessages: state.postsInfoPage
+    usersMessages: state.messagesPage
   }
 }
 
@@ -19,12 +19,12 @@ let mapDispatchToProps = (dispatch) => {
     updateNewMessageBody: (body) => {
       dispatch(updateNewMessageBodyCreator(body));
     },
-    setUsers: (users) => {
+    setMessages: (users) => {
       dispatch(setUsersCreator(users));
     }
   }
 }
 
-const PostsInfoContainer = connect(mapStateToProps, mapDispatchToProps)(PostsInfo);
+const MessagesContainer = connect(mapStateToProps, mapDispatchToProps)(Messages);
 
-export default PostsInfoContainer;
+export default MessagesContainer;

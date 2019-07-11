@@ -5,22 +5,21 @@ import CityHotelsPics from './CityHotelsPics/CityHotelsPics';
 
 const HotelsInfo = (props) => {
 
-  const contentHotelsCity = props.data.hotel.description;
-  const lengthList = contentHotelsCity.length;
+  const hotelsCount = props.data.hotels.length;
 
-  const hotelsBox = contentHotelsCity.map(hotelName =>
+  const hotelsBox = props.data.hotels.map(hotelContent =>
     <CityHotelsPics
-      key = {hotelName.id}
-      cityName = {props.data.city}
-      continentName={props.continentName}
-      hotelName = {hotelName} />
+      key = {hotelContent.id}
+      cityName = {props.data.name}
+      continentId={props.data.continentId}
+      hotelContent = {hotelContent} />
   )
 
   return (
       <div className={`container ${style.profileCities}`}>
         <div className="row">
           <div className={`col-12 ${style.titleContinent}`}>
-            <p>{`${props.data.place.title} (${lengthList})`}</p>
+            <p>{`Where to live (${hotelsCount})`}</p>
           </div>
         </div>
         <div className={`row ${style.lineCities}`}>
