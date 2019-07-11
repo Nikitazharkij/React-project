@@ -4,33 +4,18 @@ import PostsInfoContainer from './../../components/Main/PostsInfo/PostsInfoConta
 
 const MainPlace = (props) => {
 
-  let data = null;
   let continentName = props.match.params.continentName;
   let citySlug = props.match.params.citySlug;
   let typePlace = props.match.params.typePlace;
   let placeSlug = props.match.params.placeSlug;
 
-  for (let i = 0; i < props.data[continentName].length; i++) {
-    if (props.data[continentName][i].city === citySlug) {
-      let dataPlaces = props.data[continentName][i].spots[typePlace].description;
-      findPlaceDescription(dataPlaces);
-      break;
-    }
-  }
-
-  function findPlaceDescription(dataPlaces) {
-    for (let i = 0; i < dataPlaces.length; i++) {
-      if (dataPlaces[i].name === placeSlug) {
-        data = dataPlaces[i];
-        break;
-      }
-    }
-  }
+  let cityItem = props.data[continentName].find(item => item.city === citySlug);
+  let placeItem = cityItem[typePlace].description.find(item => item.name === placeSlug);
 
   return (
     <Fragment>
-      <DescriptionPlace data={data} placeSlug={placeSlug} />
-      <PostsInfoContainer data={data} />
+      <DescriptionPlace data={placeItem} placeSlug={placeSlug} />
+      <PostsInfoContainer data={placeItem} />
     </Fragment>
   )
 }

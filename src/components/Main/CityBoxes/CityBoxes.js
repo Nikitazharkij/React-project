@@ -7,10 +7,8 @@ const CityBoxes = (props) => {
   let lengthList = props.data[props.continentName].length;
   const contentCities = props.data[props.continentName].map(contentCity =>
   <PicsCity key = {contentCity.id}
-            country = {contentCity.country}
-            src = {contentCity.src}
-            city = {contentCity.city}
-            continentName= {props.continentName} /> 
+            contentCity = {contentCity}
+            continentName= {props.continentName} />
   )
 
   return (

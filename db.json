@@ -10,8 +10,8 @@
           "src": "./img/Africa/AddisAbaba.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -100,7 +100,6 @@
                     ]
                 }]
               }
-            }
         },
         {
           "id": 2,
@@ -109,8 +108,8 @@
           "src": "./img/Africa/Cairo.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -199,7 +198,6 @@
                     ]
                 }]
               }
-          }
         },
         {
           "id": 3,
@@ -208,8 +206,8 @@
           "src": "./img/Africa/Dakar.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -298,7 +296,6 @@
                     ]
                 }]
               }
-          }
         },
         {
           "id": 4,
@@ -307,8 +304,8 @@
           "src": "./img/Africa/Accra.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -397,7 +394,6 @@
                   ]
                 }]
               }
-          }
         }
       ],
       "asia":
@@ -409,8 +405,8 @@
           "src": "./img/Asia/Agra.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -499,7 +495,6 @@
                   ]
                 }]
               }
-          }
         },
         {
           "id": 2,
@@ -508,8 +503,8 @@
           "src": "./img/Asia/Astana.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -598,7 +593,6 @@
                   ]
                 }]
               }
-          }
         },
         {
           "id": 3,
@@ -607,8 +601,8 @@
           "src": "./img/Asia/Bangkok.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -697,7 +691,6 @@
                   ]
                 }]
               }
-          }
         },
         {
           "id": 4,
@@ -706,8 +699,8 @@
           "src": "./img/Asia/Tokio.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -796,7 +789,6 @@
                   ]
                 }]
               }
-          }
       }
       ],
       "europe":
@@ -808,8 +800,8 @@
           "src": "./img/Europe/Amsterdam.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -898,7 +890,6 @@
                   ]
                 }]
               }
-          }
         },
         {
           "id": 2,
@@ -907,8 +898,8 @@
           "src": "./img/Europe/Antalya.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -997,7 +988,6 @@
                   ]
                 }]
               }
-          }
         },
         {
           "id": 3,
@@ -1006,8 +996,8 @@
           "src": "./img/Europe/Berlin.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -1096,7 +1086,6 @@
                   ]
                 }]
               }
-          }
         },
         {
           "id": 4,
@@ -1105,8 +1094,8 @@
           "src": "./img/Europe/Prague.jpg",
           "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
           "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          "spots":
-            {
+          
+            
               "place":
               {
                 "title": "What to see",
@@ -1208,7 +1197,6 @@
                   ]
                 }]
               }
-          }
         }
       ]
     }
