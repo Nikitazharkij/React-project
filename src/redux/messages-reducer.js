@@ -18,7 +18,7 @@ let initialState = {
   newMessage: ""
 };
 
-const postsInfoReducer = (state = initialState, action) => {
+const messagesReducer = (state = initialState, action) => {
 
   switch (action.type) {
     case UPDATE_NEW_MESSAGE_BODY:
@@ -47,4 +47,4 @@ export const updateNewMessageBodyCreator = (body) =>
   ({type: UPDATE_NEW_MESSAGE_BODY, body: body});
 export const setUsersCreator = (users) => ({type: SET_POSTS, users});
 
-export default postsInfoReducer;
+export default messagesReducer;

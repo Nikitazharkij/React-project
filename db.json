@@ -1,1203 +1,780 @@
 {
-  "continent":
+  "continents": [
     {
-      "africa":
-      [
-        {
-          "id": 1,
-          "city": "Addis Ababa",
-          "country": "Ethiopia",
-          "src": "./img/Africa/AddisAbaba.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "National Museum",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Holy Trinity Cathedral",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Church",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Derg Monument",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Monument",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Melala Addis",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "220$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                },
-                {
-                  "id": 2,
-                  "name": "Hilton Addis Ababa",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "185$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                },
-                {
-                  "id": 3,
-                  "name": "Ag Palace Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "105$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                }]
-              }
-        },
-        {
-          "id": 2,
-          "city": "Cairo",
-          "country": "Egipt",
-          "src": "./img/Africa/Cairo.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Pyramids of Giza",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Pyramids",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Egyptian Museum",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Al Azhar Mosque",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Ramses Hilton",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "320$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                },
-                {
-                  "id": 2,
-                  "name": "Safary Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "115$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                },
-                {
-                  "id": 3,
-                  "name": "Cairo Marriott Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "380$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                }]
-              }
-        },
-        {
-          "id": 3,
-          "city": "Dakar",
-          "country": "Senegal",
-          "src": "./img/Africa/Dakar.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Mamelles Lighthouse",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Médina",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Layen Mausoleum",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Hotel Novotel Dakar",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "135$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                },
-                {
-                  "id": 2,
-                  "name": "TERROU-BI HOTEL",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "450$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                },
-                {
-                  "id": 3,
-                  "name": "Le Djoloff",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "155$",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                }]
-              }
-        },
-        {
-          "id": 4,
-          "city": "Accra",
-          "country": "Ghana",
-          "src": "./img/Africa/Accra.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Makola Market",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Market",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Independence Square",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Square",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "National Museum",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Golden Tulip Accra",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "145$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "Jenos Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "185$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Bays Lodge",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "140$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        }
-      ],
-      "asia":
-      [
-        {
-          "id": 1,
-          "city": "Agra",
-          "country": "India",
-          "src": "./img/Asia/Agra.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Mamelles Lighthouse",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Médina",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Layen Mausoleum",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Hotel Novotel Dakar",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "135$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "TERROU-BI HOTEL",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "450$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Le Djoloff",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "155$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        },
-        {
-          "id": 2,
-          "city": "Astana",
-          "country": "Kazakhstan",
-          "src": "./img/Asia/Astana.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Royal Palace",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Van Gogh Museum",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Castle Muiderslot",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Castle",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Inntel Hotel",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "120$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "NH Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "250$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Quentin Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "180$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        },
-        {
-          "id": 3,
-          "city": "Bangkok",
-          "country": "Thailand",
-          "src": "./img/Asia/Bangkok.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "National Museum",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Holy Trinity Cathedral",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Church",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Derg Monument",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Monument",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Melala Addis",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "220$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "Hilton Addis Ababa",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "185$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Ag Palace Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "105$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        },
-        {
-          "id": 4,
-          "city": "Tokoi",
-          "country": "Japan",
-          "src": "./img/Asia/Tokio.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Pyramids of Giza",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Pyramids",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Egyptian Museum",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Al Azhar Mosque",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Ramses Hilton",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "320$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "Safary Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "115$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Cairo Marriott Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "380$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-      }
-      ],
-      "europe":
-      [
-        {
-          "id": 1,
-          "city": "Amsterdam",
-          "country": "Netherlands",
-          "src": "./img/Europe/Amsterdam.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Royal Palace",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Van Gogh Museum",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Castle Muiderslot",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Castle",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Inntel Hotel",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "120$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "NH Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "250$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Quentin Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "180$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        },
-        {
-          "id": 2,
-          "city": "Antalya",
-          "country": "Turkey",
-          "src": "./img/Europe/Antalya.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Royal Palace",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Van Gogh Museum",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Castle Muiderslot",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Castle",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Inntel Hotel",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "120$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "NH Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "250$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Quentin Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "180$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        },
-        {
-          "id": 3,
-          "city": "Berlin",
-          "country": "Germany",
-          "src": "./img/Europe/Berlin.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Royal Palace",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Van Gogh Museum",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Castle Muiderslot",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Castle",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Inntel Hotel",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "120$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "NH Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "250$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Quentin Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "180$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        },
-        {
-          "id": 4,
-          "city": "Prague",
-          "country": "Czech",
-          "src": "./img/Europe/Prague.jpg",
-          "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
-          "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-          
-            
-              "place":
-              {
-                "title": "What to see",
-                "description":
-                  [{
-                    "id": 1,
-                    "name": "Royal Palace",
-                    "src": "./img/Amsterdam/RoyalPalace.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Palace",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 2,
-                    "name": "Van Gogh Museum",
-                    "src": "./img/Amsterdam/VanGoghMuseum.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Museum",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  },
-                  {
-                    "id": 3,
-                    "name": "Castle Muiderslot",
-                    "src": "./img/Amsterdam/CastleMuiderslot.jpg",
-                    "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                    "type": "Castle",
-                    "messages":
-                    [
-                      {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                      {"id": 2, "name": "Andrey", "message": "Great place"},
-                      {"id": 3, "name": "Sveta", "message": "Yoy"}
-                    ]
-                  }]
-                },
-              "hotel":
-              {
-                  "title": "Where to live",
-                  "description":
-                [{
-                  "id": 1,
-                  "name": "Inntel Hotel",
-                  "src": "./img/Amsterdam/InntelHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "120$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 2,
-                  "name": "NH Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "250$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 3,
-                  "name": "Quentin Hotel",
-                  "src": "./img/Amsterdam/QuentinHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "180$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                },
-                {
-                  "id": 4,
-                  "name": "NH Hotel",
-                  "src": "./img/Amsterdam/NHHotel.jpg",
-                  "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
-                  "cost": "250$",
-                  "messages":
-                  [
-                    {"id": 1, "name": "Dimych", "message": "It's wonderful"},
-                    {"id": 2, "name": "Andrey", "message": "Great place"},
-                    {"id": 3, "name": "Sveta", "message": "Yoy"}
-                  ]
-                }]
-              }
-        }
-      ]
+      "id": 1,
+      "namePlace": "", "name": "Africa"
+    },
+    {
+      "id": 2,
+      "name": "Asia"
+    },
+    {
+      "id": 3,
+      "name": "Europe"
     }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "continentId": 1,
+      "name": "Addis Ababa",
+      "country": "Ethiopia",
+      "src": "./img/Africa/AddisAbaba.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 2,
+      "continentId": 1,
+      "name": "Cairo",
+      "country": "Egipt",
+      "src": "./img/Africa/Cairo.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 3,
+      "continentId": 1,
+      "name": "Dakar",
+      "country": "Senegal",
+      "src": "./img/Africa/Dakar.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 4,
+      "continentId": 1,
+      "name": "Accra",
+      "country": "Ghana",
+      "src": "./img/Africa/Accra.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 5,
+      "continentId": 2,
+      "name": "Agra",
+      "country": "India",
+      "src": "./img/Asia/Agra.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 6,
+      "continentId": 2,
+      "name": "Astana",
+      "country": "Kazakhstan",
+      "src": "./img/Asia/Astana.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 7,
+      "continentId": 2,
+      "name": "Bangkok",
+      "country": "Thailand",
+      "src": "./img/Asia/Bangkok.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 8,
+      "continentId": 2,
+      "name": "Tokoi",
+      "country": "Japan",
+      "src": "./img/Asia/Tokio.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 9,
+      "continentId": 3,
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "src": "./img/Europe/Amsterdam.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 10,
+      "continentId": 3,
+      "name": "Antalya",
+      "country": "Turkey",
+      "src": "./img/Europe/Antalya.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 11,
+      "continentId": 3,
+      "name": "Berlin",
+      "country": "Germany",
+      "src": "./img/Europe/Berlin.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    },
+    {
+      "id": 12,
+      "continentId": 3,
+      "name": "Prague",
+      "country": "Czech",
+      "src": "./img/Europe/Prague.jpg",
+      "descriptionShort": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich ...",
+      "description": "It is one of the greatest small cities in the world. From canals to world-famous museums and historical sights, it is one of the most romantic and beautiful cities. Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience."
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "cityId": 1,
+      "name": "National Museum",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 2,
+      "cityId": 1,
+      "name": "Holy Trinity Cathedral",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Church"
+    },
+    {
+      "id": 3,
+      "cityId": 1,
+      "name": "Derg Monument",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Monument"
+    },
+    {
+      "id": 4,
+      "cityId": 2,
+      "name": "Pyramids of Giza",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Pyramids"
+    },
+    {
+      "id": 5,
+      "cityId": 2,
+      "name": "Egyptian Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 6,
+      "cityId": 2,
+      "name": "Egyptian Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 7,
+      "cityId": 3,
+      "name": "Al Azhar Mosque",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 8,
+      "cityId": 3,
+      "name": "Mamelles Lighthouse",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 9,
+      "cityId": 3,
+      "name": "Médina",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 10,
+      "cityId": 4,
+      "name": "Layen Mausoleum",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 11,
+      "cityId": 4,
+      "name": "Makola Market",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Market"
+    },
+    {
+      "id": 12,
+      "cityId": 4,
+      "name": "Independence Square",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Square"
+    },
+    {
+      "id": 13,
+      "cityId": 5,
+      "name": "National Museum",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 14,
+      "cityId": 5,
+      "name": "Mamelles Lighthouse",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 15,
+      "cityId": 5,
+      "name": "Médina",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 16,
+      "cityId": 6,
+      "name": "Layen Mausoleum",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 17,
+      "cityId": 6,
+      "name": "Royal Palace",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 18,
+      "cityId": 6,
+      "name": "Van Gogh Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 19,
+      "cityId": 7,
+      "name": "Castle Muiderslot",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Castle"
+    },
+    {
+      "id": 20,
+      "cityId": 7,
+      "name": "National Museum",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 21,
+      "cityId": 7,
+      "name": "Holy Trinity Cathedral",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Church"
+    },
+    {
+      "id": 22,
+      "cityId": 8,
+      "name": "Derg Monument",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Monument"
+    },
+    {
+      "id": 23,
+      "cityId": 8,
+      "name": "Pyramids of Giza",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Pyramids"
+    },
+    {
+      "id": 24,
+      "cityId": 8,
+      "name": "Egyptian Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 25,
+      "cityId": 9,
+      "name": "Al Azhar Mosque",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 26,
+      "cityId": 9,
+      "name": "Royal Palace",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 27,
+      "cityId": 9,
+      "name": "Van Gogh Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 28,
+      "cityId": 10,
+      "name": "Castle Muiderslot",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Castle"
+    },
+    {
+      "id": 29,
+      "cityId": 10,
+      "name": "Royal Palace",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 30,
+      "cityId": 10,
+      "name": "Van Gogh Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 31,
+      "cityId": 11,
+      "name": "Castle Muiderslot",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Castle"
+    },
+    {
+      "id": 32,
+      "cityId": 11,
+      "name": "Royal Palace",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 33,
+      "cityId": 11,
+      "name": "Van Gogh Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    },
+    {
+      "id": 34,
+      "cityId": 12,
+      "name": "Castle Muiderslot",
+      "src": "./img/Amsterdam/CastleMuiderslot.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Castle"
+    },
+    {
+      "id": 35,
+      "cityId": 12,
+      "name": "Royal Palace",
+      "src": "./img/Amsterdam/RoyalPalace.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Palace"
+    },
+    {
+      "id": 36,
+      "cityId": 12,
+      "name": "Van Gogh Museum",
+      "src": "./img/Amsterdam/VanGoghMuseum.jpg",
+      "info": "Canal cruises are a popular way to see the city from the perspective of its canals. It is very unique for its large and untouched historic center. It has a rich architectural history, dominated by water. It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "type": "Museum"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "cityId": 1,
+      "name": "Melala Addis",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "220$"
+    },
+    {
+      "id": 2,
+      "cityId": 1,
+      "name": "Hilton Addis Ababa",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "185$"
+    },
+    {
+      "id": 3,
+      "cityId": 1,
+      "name": "Ag Palace Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "105$"
+    },
+    {
+      "id": 4,
+      "cityId": 2,
+      "name": "Ramses Hilton",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "320$"
+    },
+    {
+      "id": 5,
+      "cityId": 2,
+      "name": "Safary Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "115$"
+    },
+    {
+      "id": 6,
+      "cityId": 2,
+      "name": "Cairo Marriott Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "380$"
+    },
+    {
+      "id": 7,
+      "cityId": 3,
+      "name": "Hotel Novotel Dakar",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "135$"
+    },
+    {
+      "id": 8,
+      "cityId": 3,
+      "name": "TERROU-BI HOTEL",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "450$"
+    },
+    {
+      "id": 9,
+      "cityId": 3,
+      "name": "Le Djoloff",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "155$"
+    },
+    {
+      "id": 10,
+      "cityId": 4,
+      "name": "Golden Tulip Accra",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "145$"
+    },
+    {
+      "id": 11,
+      "cityId": 4,
+      "name": "Jenos Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "185$"
+    },
+    {
+      "id": 12,
+      "cityId": 4,
+      "name": "Bays Lodge",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "140$"
+    },
+    {
+      "id": 13,
+      "cityId": 5,
+      "name": "Hotel Novotel Dakar",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "135$"
+    },
+    {
+      "id": 14,
+      "cityId": 5,
+      "name": "TERROU-BI HOTEL",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "450$"
+    },
+    {
+      "id": 15,
+      "cityId": 5,
+      "name": "Le Djoloff",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "155$"
+    },
+    {
+      "id": 16,
+      "cityId": 6,
+      "name": "Inntel Hotel",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "120$"
+    },
+    {
+      "id": 17,
+      "cityId": 6,
+      "name": "NH Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "250$"
+    },
+    {
+      "id": 18,
+      "cityId": 6,
+      "name": "Quentin Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "180$"
+    },
+    {
+      "id": 19,
+      "cityId": 7,
+      "name": "Melala Addis",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "220$"
+    },
+    {
+      "id": 20,
+      "cityId": 7,
+      "name": "Hilton Addis Ababa",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "185$"
+    },
+    {
+      "id": 21,
+      "cityId": 7,
+      "name": "Ag Palace Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "105$"
+    },
+    {
+      "id": 22,
+      "cityId": 8,
+      "name": "Ramses Hilton",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "320$"
+    },
+    {
+      "id": 23,
+      "cityId": 8,
+      "name": "Safary Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "115$"
+    },
+    {
+      "id": 24,
+      "cityId": 8,
+      "name": "Cairo Marriott Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "380$"
+    },
+    {
+      "id": 25,
+      "cityId": 9,
+      "name": "Inntel Hotel",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "120$"
+    },
+    {
+      "id": 26,
+      "cityId": 9,
+      "name": "NH Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "250$"
+    },
+    {
+      "id": 27,
+      "cityId": 9,
+      "name": "Quentin Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "180$"
+    },
+    {
+      "id": 28,
+      "cityId": 10,
+      "name": "Inntel Hotel",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "120$"
+    },
+    {
+      "id": 29,
+      "cityId": 10,
+      "name": "NH Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "250$"
+    },
+    {
+      "id": 30,
+      "cityId": 10,
+      "name": "Quentin Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "180$"
+    },
+    {
+      "id": 31,
+      "cityId": 11,
+      "name": "Inntel Hotel",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "120$"
+    },
+    {
+      "id": 32,
+      "cityId": 11,
+      "name": "NH Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "250$"
+    },
+    {
+      "id": 33,
+      "cityId": 11,
+      "name": "Quentin Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "180$"
+    },
+    {
+      "id": 34,
+      "cityId": 12,
+      "name": "Inntel Hotel",
+      "src": "./img/Amsterdam/InntelHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "120$"
+    },
+    {
+      "id": 35,
+      "cityId": 12,
+      "name": "NH Hotel",
+      "src": "./img/Amsterdam/NHHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "250$"
+    },
+    {
+      "id": 36,
+      "cityId": 12,
+      "name": "Quentin Hotel",
+      "src": "./img/Amsterdam/QuentinHotel.jpg",
+      "info": "It is a meeting point for all different cultures around the world and has a welcoming attitude towards visitors. Well known for its museums, red light district, coffee shops but also the great variety of eating & drinking place and night life. It even claims to be the ‘Gay capital of Europe’. Therefore a lot of hotel and hostels can be found on different locations, value for money and ambience.",
+      "cost": "180$"
+    }
+  ],
+  "messages": [
+    {"id": 1, "placeId": 1, "name": "Dimych", "message": "It's wonderful"},
+    {"id": 2, "placeId": 2, "name": "Andrey", "message": "Great place"},
+    {"id": 3, "placeId": 3, "name": "Sasha", "message": "It's wonderful"},
+    {"id": 4, "placeId": 4, "name": "Marta", "message": "Great place"},
+    {"id": 5, "placeId": 5, "name": "Alesia", "message": "It's wonderful"},
+    {"id": 6, "placeId": 6, "name": "Natasha", "message": "Great place"},
+    {"id": 7, "placeId": 7, "name": "Sergej", "message": "It's wonderful"},
+    {"id": 8, "placeId": 8, "name": "Nikita", "message": "Great place"},
+    {"id": 9, "placeId": 9, "name": "Olia", "message": "It's wonderful"},
+    {"id": 10, "placeId": 10, "name": "Oksana", "message": "Great place"},
+    {"id": 11, "placeId": 11, "name": "Gleb", "message": "It's wonderful"},
+    {"id": 12, "placeId": 12, "name": "Misha", "message": "Great place"},
+    {"id": 13, "placeId": 13, "name": "Oleg", "message": "It's wonderful"},
+    {"id": 14, "placeId": 14, "name": "Vlad", "message": "Great place"},
+    {"id": 15, "placeId": 15, "name": "Lesha", "message": "It's wonderful"},
+    {"id": 16, "placeId": 16, "name": "Tania", "message": "Great place"},
+    {"id": 17, "placeId": 17, "name": "Masha", "message": "It's wonderful"},
+    {"id": 18, "placeId": 18, "name": "Tolik", "message": "Great place"},
+    {"id": 19, "placeId": 19, "name": "Dima", "message": "It's wonderful"},
+    {"id": 20, "placeId": 20, "name": "Stas", "message": "Great place"},
+    {"id": 21, "placeId": 21, "name": "Kolia", "message": "It's wonderful"},
+    {"id": 22, "placeId": 22, "name": "Grigorij", "message": "Great place"},
+    {"id": 23, "placeId": 23, "name": "Valera", "message": "It's wonderful"},
+    {"id": 24, "placeId": 24, "name": "Vladimir", "message": "Great place"},
+    {"id": 25, "placeId": 25, "name": "Vika", "message": "It's wonderful"},
+    {"id": 26, "placeId": 26, "name": "Veronika", "message": "Great place"},
+    {"id": 27, "placeId": 27, "name": "Inna", "message": "It's wonderful"},
+    {"id": 28, "placeId": 28, "name": "Mihail", "message": "Great place"},
+    {"id": 29, "placeId": 29, "name": "Boris", "message": "It's wonderful"},
+    {"id": 30, "placeId": 30, "name": "Irina", "message": "Great place"},
+    {"id": 31, "placeId": 31, "name": "Ilia", "message": "It's wonderful"},
+    {"id": 32, "placeId": 32, "name": "Gosha", "message": "Great place"},
+    {"id": 33, "placeId": 33, "name": "Evgenij", "message": "It's wonderful"},
+    {"id": 34, "placeId": 34, "name": "Artem", "message": "Great place"},
+    {"id": 35, "placeId": 35, "name": "Eva", "message": "It's wonderful"},
+    {"id": 36, "placeId": 36, "name": "Victorija", "message": "Great place"},
+    {"id": 37, "hotelId": 1, "name": "Dimych", "message": "It's wonderful"},
+    {"id": 38, "hotelId": 2, "name": "Andrey", "message": "Great place"},
+    {"id": 39, "hotelId": 3, "name": "Sasha", "message": "It's wonderful"},
+    {"id": 40, "hotelId": 4, "name": "Marta", "message": "Great place"},
+    {"id": 41, "hotelId": 5, "name": "Alesia", "message": "It's wonderful"},
+    {"id": 42, "hotelId": 6, "name": "Natasha", "message": "Great place"},
+    {"id": 43, "hotelId": 7, "name": "Sergej", "message": "It's wonderful"},
+    {"id": 44, "hotelId": 8, "name": "Nikita", "message": "Great place"},
+    {"id": 45, "hotelId": 9, "name": "Olia", "message": "It's wonderful"},
+    {"id": 46, "hotelId": 10, "name": "Oksana", "message": "Great place"},
+    {"id": 47, "hotelId": 11, "name": "Gleb", "message": "It's wonderful"},
+    {"id": 48, "hotelId": 12, "name": "Misha", "message": "Great place"},
+    {"id": 49, "hotelId": 13, "name": "Oleg", "message": "It's wonderful"},
+    {"id": 50, "hotelId": 14, "name": "Vlad", "message": "Great place"},
+    {"id": 51, "hotelId": 15, "name": "Lesha", "message": "It's wonderful"},
+    {"id": 52, "hotelId": 16, "name": "Tania", "message": "Great place"},
+    {"id": 53, "hotelId": 17, "name": "Masha", "message": "It's wonderful"},
+    {"id": 54, "hotelId": 18, "name": "Tolik", "message": "Great place"},
+    {"id": 55, "hotelId": 19, "name": "Dima", "message": "It's wonderful"},
+    {"id": 56, "hotelId": 20, "name": "Stas", "message": "Great place"},
+    {"id": 57, "hotelId": 21, "name": "Kolia", "message": "It's wonderful"},
+    {"id": 58, "hotelId": 22, "name": "Grigorij", "message": "Great place"},
+    {"id": 59, "hotelId": 23, "name": "Valera", "message": "It's wonderful"},
+    {"id": 60, "hotelId": 24, "name": "Vladimir", "message": "Great place"},
+    {"id": 61, "hotelId": 25, "name": "Vika", "message": "It's wonderful"},
+    {"id": 62, "hotelId": 26, "name": "Veronika", "message": "Great place"},
+    {"id": 63, "hotelId": 27, "name": "Inna", "message": "It's wonderful"},
+    {"id": 64, "hotelId": 28, "name": "Mihail", "message": "Great place"},
+    {"id": 65, "hotelId": 29, "name": "Boris", "message": "It's wonderful"},
+    {"id": 66, "hotelId": 30, "name": "Irina", "message": "Great place"},
+    {"id": 67, "hotelId": 31, "name": "Ilia", "message": "It's wonderful"},
+    {"id": 68, "hotelId": 32, "name": "Gosha", "message": "Great place"},
+    {"id": 69, "hotelId": 33, "name": "Evgenij", "message": "It's wonderful"},
+    {"id": 70, "hotelId": 34, "name": "Artem", "message": "Great place"},
+    {"id": 71, "hotelId": 35, "name": "Eva", "message": "It's wonderful"},
+    {"id": 72, "hotelId": 36, "name": "Victorija", "message": "Great place"}
+  ]
 }

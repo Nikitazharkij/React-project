@@ -1,21 +1,29 @@
 import React, { Fragment } from 'react';
-import DescriptionPlace from './../../components/Main/DescriptionPlace/DescriptionPlace';
-import PostsInfoContainer from './../../components/Main/PostsInfo/PostsInfoContainer';
+import DescriptionPlace from './../../components/DescriptionPlace/DescriptionPlace';
+import MessagesContainer from './../../components/Messages/MessagesContainer';
+import Error from './../Error/Error';
+import Loading from './../Loading/Loading';
+import { useFetch } from './../../useFetch.js';
 
 const MainPlace = (props) => {
 
-  let continentName = props.match.params.continentName;
-  let citySlug = props.match.params.citySlug;
-  let typePlace = props.match.params.typePlace;
-  let placeSlug = props.match.params.placeSlug;
+  let placeId = props.match.params.placeId;
+  let placeType = props.match.params.placeType;
 
-  let cityItem = props.data[continentName].find(item => item.city === citySlug);
-  let placeItem = cityItem[typePlace].description.find(item => item.name === placeSlug);
+  const [data, loading, error] = useFetch(`http://localhost:3006/${placeType}?id=${placeId}&_embed=messages&`);
+
+  let cityContent = data.find(item => item.id === +placeId)
 
   return (
     <Fragment>
-      <DescriptionPlace data={placeItem} placeSlug={placeSlug} />
-      <PostsInfoContainer data={placeItem} />
+      { error && <Error /> }
+      { loading ? <Loading /> : (
+      <Fragment>
+        <DescriptionPlace placeName={cityContent.name}
+                          placeInfo={cityContent.info} />
+        <MessagesContainer data={cityContent.messages}/>
+      </Fragment>
+      )}
     </Fragment>
   )
 }

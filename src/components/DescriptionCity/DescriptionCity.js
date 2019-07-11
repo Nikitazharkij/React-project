@@ -12,7 +12,7 @@ const DescriptionCity = (props) => {
     <div className={`container ${style.profileCities}`}>
       <div className="row">
         <div className={`col-12 ${style.titleCity}`}>
-          <p>{`${props.data.city}, ${props.data.country}`}</p>
+          <p>{`${props.data.name}, ${props.data.country}`}</p>
         </div>
       </div>
       <div className="row">

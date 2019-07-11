@@ -1,8 +1,8 @@
 import { combineReducers, createStore } from 'redux';
-import postsInfoReducer from './postsInfo-reducer';
+import messagesReducer from './messages-reducer';
 
 let reducers = combineReducers({
-  postsInfoPage: postsInfoReducer
+  messagesPage: messagesReducer
 });
 
 let store = createStore(reducers);

@@ -16,7 +16,7 @@ import Present from './pages/Present/Present';
 import Clock from './pages/Clock/Clock';
 
 const App = (props) => {
-  const [data, loading, error] = useFetch('http://localhost:3006/continent');
+  const [data, loading, error] = useFetch('http://localhost:3006/continents?_embed=cities');
 
   return (
     <div className="app-wrapper">
@@ -32,10 +32,10 @@ const App = (props) => {
         { loading ? <Loading /> : (
           <Switch>
             <Route exact path = '/' render = {() => <MainHome data={data} />} />
-            <Route exact path = '/info/city/:continentName/:citySlug'
-                   render = {({ match }) => <MainCity data={data} match={match}/>} />
-            <Route path = '/info/city/:continentName/:citySlug/:typePlace/:placeSlug'
-                   render = {({ match }) => <MainPlace data={data} match={match}/>} />
+            <Route exact path = '/info/city/:continentId/:citySlug'
+                   render = {({ match }) => <MainCity match={match}/>} />
+            <Route path = '/info/city/:continentId/:citySlug/:placeType/:cityId/:placeId'
+                   render = {({ match }) => <MainPlace match={match}/>} />
             <Route path = '/info/print' component={Print} />
             <Route path = '/info/tv' component={Tv} />
             <Route path = '/info/present' component={Present} />
